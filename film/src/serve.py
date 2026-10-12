@@ -115,14 +115,23 @@ def main():
     sink = Sink(proc, args.first)
     srv = ThreadingHTTPServer(("127.0.0.1", args.port), make_handler(sink))
     print(f"serveur sur http://127.0.0.1:{args.port}", flush=True)
+
+    # Un processus lance en arriere-plan par un script ignore SIGINT : on
+    # s'arrete sur SIGTERM, depuis un fil a part (shutdown() bloque sinon).
+    import signal
+    def stop(*_):
+        threading.Thread(target=srv.shutdown, daemon=True).start()
+    signal.signal(signal.SIGTERM, stop)
+    signal.signal(signal.SIGINT, stop)
+
     try:
         srv.serve_forever()
-    except KeyboardInterrupt:
-        pass
     finally:
+        srv.server_close()
         if proc:
             proc.stdin.close()
             proc.wait()
+        print(f"arret propre, {sink.written} images", flush=True)
 
 
 if __name__ == "__main__":

@@ -42,6 +42,17 @@ renderer.shadowMap.enabled = false;
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x07060a);
 
+// Environnement studio : sans lui, un metal parfait n'a rien a refleter et
+// les pieces d'or sortent noires.
+{
+  const { RoomEnvironment } = await import("three/addons/environments/RoomEnvironment.js");
+  const pmrem = new THREE.PMREMGenerator(renderer);
+  // attache aux seuls materiaux qui en ont besoin : scene.environment
+  // s'appliquerait aussi au cerveau, qui sortirait en platre.
+  window.__ENV = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+  pmrem.dispose();
+}
+
 const camera = new THREE.PerspectiveCamera(30, W / H, 0.1, 100);
 
 // --- utilitaires de temps ----------------------------------------------------
@@ -84,9 +95,11 @@ scene.add(rim2);
 scene.add(new THREE.AmbientLight(0x2a2d38, 1.3));
 
 // pieces d'or qui tombent
-const coinGeo = new THREE.CylinderGeometry(0.052, 0.052, 0.009, 28);
+const coinGeo = new THREE.CylinderGeometry(0.075, 0.075, 0.012, 40);
 const coinMat = new THREE.MeshPhysicalMaterial({
-  color: new THREE.Color(PALETTE.or), metalness: 1.0, roughness: 0.26,
+  color: new THREE.Color(PALETTE.or), metalness: 1.0, roughness: 0.22,
+  envMap: window.__ENV,
+  envMapIntensity: 1.4,
 });
 const COINS = 14;
 const coins = new THREE.InstancedMesh(coinGeo, coinMat, COINS);
@@ -181,14 +194,26 @@ export function renderAt(t) {
   brain.rotation.y = -0.35 + t * 0.085;
   brain.rotation.x = 0.06 * Math.sin(t * 0.5);
 
-  // la camera descend doucement vers le sillon, puis plonge sur « expres »
-  const dive = ramp(t, 3.05, 4.30);
-  const dist = 6.0 - 1.15 * ramp(t, 0.0, 3.0) - 1.9 * dive;
-  camera.position.set(0, 0.18 - 0.22 * dive, dist);
-  camera.lookAt(0, -0.30 - 0.1 * dive, 0);
+  // Cadrage : cerveau dans la moitie basse, titre en haut. La camera vise
+  // au-dessus du cerveau pour le faire descendre dans l'image.
+  // Elle s'approche doucement, puis plonge dans la scissure sur « expres ».
+  const approach = ramp(t, 0.0, 3.0);
+  const dive = ramp(t, 3.05, 4.40);
+  const plunge = Math.pow(ramp(t, 3.7, 4.40), 2.2);   // derniere acceleration
+
+  // point vise : le haut de la scissure, la ou la braise est la plus vive
+  const fx = 0, fy = 0.30, fz = 0.10;
+  const dist = 6.2 - 1.0 * approach - 2.0 * dive - 2.75 * plunge;
+  const lookY = 0.55 - 0.85 * dive + (fy - (0.55 - 0.85)) * plunge;
+  camera.position.set(
+    fx,
+    0.35 + (fy + 0.55 - 0.35) * dive,
+    fz + dist,
+  );
+  camera.lookAt(fx, lookY, fz);
 
   // les sillons s'allument sur « expres »
-  const burn = ramp(t, 2.72, 3.30);
+  const burn = ramp(t, 2.72, 3.30) + 0.8 * plunge;
   brainMat.userData.uniforms.uBurn.value = burn;
   scene.background.setHex(0x07060a).lerp(new THREE.Color(0x2a0b0b), dive * 0.9);
 
@@ -198,6 +223,19 @@ export function renderAt(t) {
   // --- composition 2D
   ctx.clearRect(0, 0, W, H);
   ctx.drawImage(glCanvas, 0, 0);
+
+  // On finit englouti dans le rouge sombre du sillon : c'est le raccord
+  // (en coupe) vers la savane a l'aube, pas un fondu.
+  const sink = ramp(t, 4.05, 4.40);
+  if (sink > 0) {
+    const g = ctx.createRadialGradient(W / 2, H * 0.52, 0, W / 2, H * 0.52, H * (0.25 + 0.75 * sink));
+    g.addColorStop(0, `rgba(110,42,36,${0.85 * sink})`);
+    g.addColorStop(0.55, `rgba(58,14,12,${0.95 * sink})`);
+    g.addColorStop(1, `rgba(26,6,6,${sink})`);
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+  }
+
   drawTitle(t);
 }
 
