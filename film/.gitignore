@@ -2,3 +2,4 @@ node_modules/
 out/
 frames/
 *.raw
+assets/voix_*.wav
