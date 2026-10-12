@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Compound Capital — masterclass v3</title>
+<style>
+  @font-face {
+    font-family: "Instrument Serif";
+    src: url("/assets/InstrumentSerif-Regular.ttf") format("truetype");
+    font-weight: 400; font-style: normal; font-display: block;
+  }
+  @font-face {
+    font-family: "Instrument Serif";
+    src: url("/assets/InstrumentSerif-Italic.ttf") format("truetype");
+    font-weight: 400; font-style: italic; font-display: block;
+  }
+  @font-face {
+    font-family: "Inter";
+    src: url("/assets/Inter-Variable.ttf") format("truetype");
+    font-weight: 100 900; font-style: normal; font-display: block;
+  }
+  html, body { margin: 0; padding: 0; background: #000; overflow: hidden; }
+  canvas { display: block; }
+  #stage { position: absolute; top: 0; left: 0; }
+  #gl { position: absolute; top: 0; left: -10000px; }
+</style>
+</head>
+<body>
+<canvas id="gl"></canvas>
+<canvas id="stage"></canvas>
+<script type="importmap">
+{
+  "imports": {
+    "three": "/node_modules/three/build/three.module.js",
+    "three/addons/": "/node_modules/three/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

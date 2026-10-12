@@ -1,0 +1,2112 @@
+{
+ "variant": "ig",
+ "duration": 151.88,
+ "cta": {
+  "start": 142.06,
+  "end": 148.22,
+  "source": "voix_cta_a.mp3"
+ },
+ "signature_start": 148.5,
+ "words": [
+  {
+   "w": "Ton",
+   "start": 0.06,
+   "end": 0.2
+  },
+  {
+   "w": "cerveau",
+   "start": 0.26,
+   "end": 0.6
+  },
+  {
+   "w": "te",
+   "start": 0.64,
+   "end": 0.74
+  },
+  {
+   "w": "fait",
+   "start": 0.78,
+   "end": 0.98
+  },
+  {
+   "w": "perdre",
+   "start": 1.02,
+   "end": 1.32
+  },
+  {
+   "w": "de",
+   "start": 1.36,
+   "end": 1.42
+  },
+  {
+   "w": "l'argent",
+   "start": 1.46,
+   "end": 1.8
+  },
+  {
+   "w": "et",
+   "start": 2.22,
+   "end": 2.26
+  },
+  {
+   "w": "il",
+   "start": 2.28,
+   "end": 2.36
+  },
+  {
+   "w": "le",
+   "start": 2.42,
+   "end": 2.52
+  },
+  {
+   "w": "fait",
+   "start": 2.56,
+   "end": 2.72
+  },
+  {
+   "w": "expres.",
+   "start": 2.78,
+   "end": 3.22
+  },
+  {
+   "w": "Pendant",
+   "start": 4.26,
+   "end": 4.46
+  },
+  {
+   "w": "des",
+   "start": 4.5,
+   "end": 4.619
+  },
+  {
+   "w": "milliers",
+   "start": 4.74,
+   "end": 5.0
+  },
+  {
+   "w": "d'annees,",
+   "start": 5.04,
+   "end": 5.32
+  },
+  {
+   "w": "il",
+   "start": 5.54,
+   "end": 5.6
+  },
+  {
+   "w": "n'a",
+   "start": 5.64,
+   "end": 5.72
+  },
+  {
+   "w": "appris",
+   "start": 5.78,
+   "end": 5.98
+  },
+  {
+   "w": "qu'une",
+   "start": 6.02,
+   "end": 6.2
+  },
+  {
+   "w": "chose",
+   "start": 6.24,
+   "end": 6.5
+  },
+  {
+   "w": "survivre,",
+   "start": 6.92,
+   "end": 7.38
+  },
+  {
+   "w": "fuir",
+   "start": 7.86,
+   "end": 8.06
+  },
+  {
+   "w": "le",
+   "start": 8.1,
+   "end": 8.16
+  },
+  {
+   "w": "danger,",
+   "start": 8.2,
+   "end": 8.48
+  },
+  {
+   "w": "suivre",
+   "start": 8.86,
+   "end": 9.14
+  },
+  {
+   "w": "le",
+   "start": 9.18,
+   "end": 9.24
+  },
+  {
+   "w": "groupe,",
+   "start": 9.28,
+   "end": 9.54
+  },
+  {
+   "w": "agir",
+   "start": 9.86,
+   "end": 10.1
+  },
+  {
+   "w": "vite.",
+   "start": 10.16,
+   "end": 10.42
+  },
+  {
+   "w": "Parfait",
+   "start": 11.02,
+   "end": 11.32
+  },
+  {
+   "w": "dans",
+   "start": 11.34,
+   "end": 11.42
+  },
+  {
+   "w": "la",
+   "start": 11.46,
+   "end": 11.54
+  },
+  {
+   "w": "savane,",
+   "start": 11.58,
+   "end": 11.94
+  },
+  {
+   "w": "catastrophique",
+   "start": 12.38,
+   "end": 13.02
+  },
+  {
+   "w": "sur",
+   "start": 13.08,
+   "end": 13.16
+  },
+  {
+   "w": "les",
+   "start": 13.2,
+   "end": 13.26
+  },
+  {
+   "w": "marches.",
+   "start": 13.3,
+   "end": 13.68
+  },
+  {
+   "w": "Regarde,",
+   "start": 14.54,
+   "end": 14.86
+  },
+  {
+   "w": "quand",
+   "start": 15.28,
+   "end": 15.42
+  },
+  {
+   "w": "tout",
+   "start": 15.48,
+   "end": 15.54
+  },
+  {
+   "w": "le",
+   "start": 15.56,
+   "end": 15.6
+  },
+  {
+   "w": "monde",
+   "start": 15.62,
+   "end": 15.74
+  },
+  {
+   "w": "achete,",
+   "start": 15.8,
+   "end": 16.12
+  },
+  {
+   "w": "il",
+   "start": 16.32,
+   "end": 16.42
+  },
+  {
+   "w": "te",
+   "start": 16.46,
+   "end": 16.62
+  },
+  {
+   "w": "pousse",
+   "start": 16.68,
+   "end": 16.86
+  },
+  {
+   "w": "a",
+   "start": 16.9,
+   "end": 16.94
+  },
+  {
+   "w": "acheter",
+   "start": 16.979,
+   "end": 17.26
+  },
+  {
+   "w": "au",
+   "start": 17.58,
+   "end": 17.62
+  },
+  {
+   "w": "plus",
+   "start": 17.72,
+   "end": 17.86
+  },
+  {
+   "w": "haut.",
+   "start": 17.88,
+   "end": 18.08
+  },
+  {
+   "w": "Quand",
+   "start": 18.56,
+   "end": 18.66
+  },
+  {
+   "w": "ca",
+   "start": 18.72,
+   "end": 18.82
+  },
+  {
+   "w": "baisse,",
+   "start": 18.86,
+   "end": 19.16
+  },
+  {
+   "w": "il",
+   "start": 19.38,
+   "end": 19.44
+  },
+  {
+   "w": "espere,",
+   "start": 19.5,
+   "end": 19.86
+  },
+  {
+   "w": "tu",
+   "start": 20.22,
+   "end": 20.3
+  },
+  {
+   "w": "gardes",
+   "start": 20.36,
+   "end": 20.58
+  },
+  {
+   "w": "ta",
+   "start": 20.62,
+   "end": 20.74
+  },
+  {
+   "w": "perte",
+   "start": 20.78,
+   "end": 21.22
+  },
+  {
+   "w": "trop",
+   "start": 21.28,
+   "end": 21.44
+  },
+  {
+   "w": "longtemps.",
+   "start": 21.46,
+   "end": 21.78
+  },
+  {
+   "w": "Quand",
+   "start": 22.38,
+   "end": 22.5
+  },
+  {
+   "w": "ca",
+   "start": 22.56,
+   "end": 22.62
+  },
+  {
+   "w": "monte,",
+   "start": 22.7,
+   "end": 22.92
+  },
+  {
+   "w": "il",
+   "start": 23.12,
+   "end": 23.18
+  },
+  {
+   "w": "a",
+   "start": 23.22,
+   "end": 23.3
+  },
+  {
+   "w": "peur.",
+   "start": 23.36,
+   "end": 23.62
+  },
+  {
+   "w": "Tu",
+   "start": 23.94,
+   "end": 24.06
+  },
+  {
+   "w": "revends",
+   "start": 24.12,
+   "end": 24.36
+  },
+  {
+   "w": "ton",
+   "start": 24.4,
+   "end": 24.54
+  },
+  {
+   "w": "gain",
+   "start": 24.58,
+   "end": 24.74
+  },
+  {
+   "w": "trop",
+   "start": 25.02,
+   "end": 25.22
+  },
+  {
+   "w": "tot.",
+   "start": 25.26,
+   "end": 25.4
+  },
+  {
+   "w": "Et",
+   "start": 26.0,
+   "end": 26.04
+  },
+  {
+   "w": "apres",
+   "start": 26.1,
+   "end": 26.28
+  },
+  {
+   "w": "une",
+   "start": 26.3,
+   "end": 26.42
+  },
+  {
+   "w": "perte,",
+   "start": 26.46,
+   "end": 26.72
+  },
+  {
+   "w": "il",
+   "start": 26.9,
+   "end": 27.0
+  },
+  {
+   "w": "veut",
+   "start": 27.02,
+   "end": 27.14
+  },
+  {
+   "w": "se",
+   "start": 27.18,
+   "end": 27.32
+  },
+  {
+   "w": "venger.",
+   "start": 27.38,
+   "end": 27.7
+  },
+  {
+   "w": "Tu",
+   "start": 28.1,
+   "end": 28.2
+  },
+  {
+   "w": "mises",
+   "start": 28.26,
+   "end": 28.46
+  },
+  {
+   "w": "plus,",
+   "start": 28.5,
+   "end": 28.8
+  },
+  {
+   "w": "tu",
+   "start": 29.1,
+   "end": 29.16
+  },
+  {
+   "w": "perds",
+   "start": 29.32,
+   "end": 29.52
+  },
+  {
+   "w": "plus.",
+   "start": 29.58,
+   "end": 29.9
+  },
+  {
+   "w": "Ajoute",
+   "start": 31.0,
+   "end": 31.22
+  },
+  {
+   "w": "ta",
+   "start": 31.26,
+   "end": 31.36
+  },
+  {
+   "w": "journee",
+   "start": 31.4,
+   "end": 31.7
+  },
+  {
+   "w": "reunions,",
+   "start": 32.14,
+   "end": 32.6
+  },
+  {
+   "w": "mails,",
+   "start": 32.86,
+   "end": 33.14
+  },
+  {
+   "w": "trajets.",
+   "start": 33.32,
+   "end": 33.8
+  },
+  {
+   "w": "Le",
+   "start": 34.18,
+   "end": 34.3
+  },
+  {
+   "w": "soir,",
+   "start": 34.34,
+   "end": 34.64
+  },
+  {
+   "w": "ton",
+   "start": 34.78,
+   "end": 34.9
+  },
+  {
+   "w": "cerveau",
+   "start": 34.94,
+   "end": 35.18
+  },
+  {
+   "w": "a",
+   "start": 35.22,
+   "end": 35.26
+  },
+  {
+   "w": "deja",
+   "start": 35.3,
+   "end": 35.52
+  },
+  {
+   "w": "pris",
+   "start": 35.54,
+   "end": 35.68
+  },
+  {
+   "w": "des",
+   "start": 35.72,
+   "end": 35.86
+  },
+  {
+   "w": "centaines",
+   "start": 35.98,
+   "end": 36.36
+  },
+  {
+   "w": "de",
+   "start": 36.4,
+   "end": 36.48
+  },
+  {
+   "w": "decisions.",
+   "start": 36.52,
+   "end": 36.96
+  },
+  {
+   "w": "Il",
+   "start": 37.32,
+   "end": 37.38
+  },
+  {
+   "w": "est",
+   "start": 37.42,
+   "end": 37.64
+  },
+  {
+   "w": "epuise.",
+   "start": 37.7,
+   "end": 38.14
+  },
+  {
+   "w": "Et",
+   "start": 38.62,
+   "end": 38.7
+  },
+  {
+   "w": "c'est",
+   "start": 38.76,
+   "end": 38.88
+  },
+  {
+   "w": "la",
+   "start": 39.0,
+   "end": 39.1
+  },
+  {
+   "w": "que",
+   "start": 39.16,
+   "end": 39.2
+  },
+  {
+   "w": "tu",
+   "start": 39.24,
+   "end": 39.32
+  },
+  {
+   "w": "voudrais",
+   "start": 39.34,
+   "end": 39.58
+  },
+  {
+   "w": "trader",
+   "start": 39.62,
+   "end": 39.84
+  },
+  {
+   "w": "Les",
+   "start": 41.14,
+   "end": 41.22
+  },
+  {
+   "w": "meilleurs",
+   "start": 41.26,
+   "end": 41.56
+  },
+  {
+   "w": "l'ont",
+   "start": 41.58,
+   "end": 41.68
+  },
+  {
+   "w": "compris",
+   "start": 41.72,
+   "end": 41.96
+  },
+  {
+   "w": "depuis",
+   "start": 42.0,
+   "end": 42.22
+  },
+  {
+   "w": "longtemps.",
+   "start": 42.3,
+   "end": 42.66
+  },
+  {
+   "w": "Ils",
+   "start": 43.08,
+   "end": 43.14
+  },
+  {
+   "w": "ne",
+   "start": 43.16,
+   "end": 43.22
+  },
+  {
+   "w": "sont",
+   "start": 43.28,
+   "end": 43.4
+  },
+  {
+   "w": "pas",
+   "start": 43.44,
+   "end": 43.56
+  },
+  {
+   "w": "plus",
+   "start": 43.58,
+   "end": 43.7
+  },
+  {
+   "w": "intelligents",
+   "start": 43.74,
+   "end": 44.14
+  },
+  {
+   "w": "que",
+   "start": 44.16,
+   "end": 44.22
+  },
+  {
+   "w": "toi.",
+   "start": 44.26,
+   "end": 44.42
+  },
+  {
+   "w": "Ils",
+   "start": 45.3,
+   "end": 45.42
+  },
+  {
+   "w": "ont",
+   "start": 45.44,
+   "end": 45.58
+  },
+  {
+   "w": "simplement",
+   "start": 45.66,
+   "end": 46.1
+  },
+  {
+   "w": "retire",
+   "start": 46.16,
+   "end": 46.5
+  },
+  {
+   "w": "leur",
+   "start": 46.54,
+   "end": 46.64
+  },
+  {
+   "w": "cerveau",
+   "start": 46.7,
+   "end": 46.96
+  },
+  {
+   "w": "de",
+   "start": 46.98,
+   "end": 47.02
+  },
+  {
+   "w": "l'equation.",
+   "start": 47.04,
+   "end": 47.5
+  },
+  {
+   "w": "Leur",
+   "start": 48.38,
+   "end": 48.48
+  },
+  {
+   "w": "secret",
+   "start": 48.56,
+   "end": 48.88
+  },
+  {
+   "w": "tient",
+   "start": 48.92,
+   "end": 49.1
+  },
+  {
+   "w": "en",
+   "start": 49.16,
+   "end": 49.26
+  },
+  {
+   "w": "une",
+   "start": 49.34,
+   "end": 49.46
+  },
+  {
+   "w": "phrase",
+   "start": 49.5,
+   "end": 49.82
+  },
+  {
+   "w": "decider",
+   "start": 50.34,
+   "end": 50.96
+  },
+  {
+   "w": "avant,",
+   "start": 51.06,
+   "end": 51.3
+  },
+  {
+   "w": "a",
+   "start": 51.68,
+   "end": 51.7
+  },
+  {
+   "w": "froid.",
+   "start": 51.8,
+   "end": 52.06
+  },
+  {
+   "w": "Des",
+   "start": 52.62,
+   "end": 52.7
+  },
+  {
+   "w": "regles",
+   "start": 52.74,
+   "end": 53.04
+  },
+  {
+   "w": "ecrites",
+   "start": 53.1,
+   "end": 53.36
+  },
+  {
+   "w": "a",
+   "start": 53.4,
+   "end": 53.42
+  },
+  {
+   "w": "l'avance.",
+   "start": 53.46,
+   "end": 53.88
+  },
+  {
+   "w": "Si",
+   "start": 54.26,
+   "end": 54.32
+  },
+  {
+   "w": "tout",
+   "start": 54.42,
+   "end": 54.56
+  },
+  {
+   "w": "est",
+   "start": 54.58,
+   "end": 54.66
+  },
+  {
+   "w": "reuni,",
+   "start": 54.7,
+   "end": 55.02
+  },
+  {
+   "w": "on",
+   "start": 55.32,
+   "end": 55.4
+  },
+  {
+   "w": "agit,",
+   "start": 55.48,
+   "end": 55.7
+  },
+  {
+   "w": "sinon",
+   "start": 56.1,
+   "end": 56.38
+  },
+  {
+   "w": "on",
+   "start": 56.68,
+   "end": 56.78
+  },
+  {
+   "w": "attend.",
+   "start": 56.84,
+   "end": 57.1
+  },
+  {
+   "w": "Et",
+   "start": 57.54,
+   "end": 57.6
+  },
+  {
+   "w": "la",
+   "start": 57.64,
+   "end": 57.7
+  },
+  {
+   "w": "limite",
+   "start": 57.74,
+   "end": 57.98
+  },
+  {
+   "w": "de",
+   "start": 58.02,
+   "end": 58.08
+  },
+  {
+   "w": "perte",
+   "start": 58.18,
+   "end": 58.38
+  },
+  {
+   "w": "est",
+   "start": 58.4,
+   "end": 58.5
+  },
+  {
+   "w": "posee",
+   "start": 58.54,
+   "end": 58.86
+  },
+  {
+   "w": "avant",
+   "start": 58.96,
+   "end": 59.24
+  },
+  {
+   "w": "meme",
+   "start": 59.3,
+   "end": 59.46
+  },
+  {
+   "w": "d'entrer.",
+   "start": 59.5,
+   "end": 59.88
+  },
+  {
+   "w": "Longtemps,",
+   "start": 60.86,
+   "end": 61.22
+  },
+  {
+   "w": "cette",
+   "start": 61.42,
+   "end": 61.56
+  },
+  {
+   "w": "discipline",
+   "start": 61.58,
+   "end": 61.96
+  },
+  {
+   "w": "etait",
+   "start": 62.0,
+   "end": 62.14
+  },
+  {
+   "w": "reservee",
+   "start": 62.18,
+   "end": 62.54
+  },
+  {
+   "w": "aux",
+   "start": 62.58,
+   "end": 62.68
+  },
+  {
+   "w": "pros.",
+   "start": 62.72,
+   "end": 62.92
+  },
+  {
+   "w": "C'est",
+   "start": 63.74,
+   "end": 63.92
+  },
+  {
+   "w": "exactement",
+   "start": 63.98,
+   "end": 64.62
+  },
+  {
+   "w": "ce",
+   "start": 64.68,
+   "end": 64.72
+  },
+  {
+   "w": "que",
+   "start": 64.74,
+   "end": 64.86
+  },
+  {
+   "w": "Compound",
+   "start": 64.9,
+   "end": 65.24
+  },
+  {
+   "w": "Capital",
+   "start": 65.3,
+   "end": 65.7
+  },
+  {
+   "w": "a",
+   "start": 65.74,
+   "end": 65.8
+  },
+  {
+   "w": "construit",
+   "start": 65.84,
+   "end": 66.16
+  },
+  {
+   "w": "pour",
+   "start": 66.2,
+   "end": 66.3
+  },
+  {
+   "w": "toi.",
+   "start": 66.36,
+   "end": 66.54
+  },
+  {
+   "w": "Une",
+   "start": 67.0,
+   "end": 67.08
+  },
+  {
+   "w": "strategie",
+   "start": 67.14,
+   "end": 67.66
+  },
+  {
+   "w": "automatique",
+   "start": 67.7,
+   "end": 68.239
+  },
+  {
+   "w": "sur",
+   "start": 68.3,
+   "end": 68.42
+  },
+  {
+   "w": "l'euro-dollar,",
+   "start": 68.48,
+   "end": 69.04
+  },
+  {
+   "w": "le",
+   "start": 69.32,
+   "end": 69.4
+  },
+  {
+   "w": "marche",
+   "start": 69.44,
+   "end": 69.7
+  },
+  {
+   "w": "le",
+   "start": 69.74,
+   "end": 69.78
+  },
+  {
+   "w": "plus",
+   "start": 69.86,
+   "end": 70.06
+  },
+  {
+   "w": "echange",
+   "start": 70.12,
+   "end": 70.48
+  },
+  {
+   "w": "au",
+   "start": 70.5,
+   "end": 70.56
+  },
+  {
+   "w": "monde.",
+   "start": 70.64,
+   "end": 70.86
+  },
+  {
+   "w": "Un",
+   "start": 71.34,
+   "end": 71.4
+  },
+  {
+   "w": "seul",
+   "start": 71.48,
+   "end": 71.62
+  },
+  {
+   "w": "marche",
+   "start": 71.66,
+   "end": 72.0
+  },
+  {
+   "w": "etudie",
+   "start": 72.36,
+   "end": 72.84
+  },
+  {
+   "w": "par",
+   "start": 72.88,
+   "end": 73.0
+  },
+  {
+   "w": "coeur.",
+   "start": 73.1,
+   "end": 73.38
+  },
+  {
+   "w": "Elle",
+   "start": 73.86,
+   "end": 73.98
+  },
+  {
+   "w": "lit",
+   "start": 74.02,
+   "end": 74.12
+  },
+  {
+   "w": "les",
+   "start": 74.16,
+   "end": 74.28
+  },
+  {
+   "w": "chiffres,",
+   "start": 74.34,
+   "end": 74.66
+  },
+  {
+   "w": "pas",
+   "start": 74.9,
+   "end": 74.98
+  },
+  {
+   "w": "les",
+   "start": 75.02,
+   "end": 75.08
+  },
+  {
+   "w": "rumeurs.",
+   "start": 75.12,
+   "end": 75.52
+  },
+  {
+   "w": "Elle",
+   "start": 75.9,
+   "end": 75.98
+  },
+  {
+   "w": "applique",
+   "start": 76.02,
+   "end": 76.26
+  },
+  {
+   "w": "ses",
+   "start": 76.32,
+   "end": 76.42
+  },
+  {
+   "w": "regles",
+   "start": 76.46,
+   "end": 76.78
+  },
+  {
+   "w": "sans",
+   "start": 76.86,
+   "end": 77.02
+  },
+  {
+   "w": "emotion",
+   "start": 77.08,
+   "end": 77.5
+  },
+  {
+   "w": "du",
+   "start": 77.8,
+   "end": 77.88
+  },
+  {
+   "w": "lundi",
+   "start": 77.98,
+   "end": 78.4
+  },
+  {
+   "w": "au",
+   "start": 78.44,
+   "end": 78.5
+  },
+  {
+   "w": "vendredi.",
+   "start": 78.56,
+   "end": 79.0
+  },
+  {
+   "w": "Et",
+   "start": 79.46,
+   "end": 79.54
+  },
+  {
+   "w": "toi,",
+   "start": 79.58,
+   "end": 79.74
+  },
+  {
+   "w": "tu",
+   "start": 80.12,
+   "end": 80.18
+  },
+  {
+   "w": "n'as",
+   "start": 80.22,
+   "end": 80.34
+  },
+  {
+   "w": "rien",
+   "start": 80.42,
+   "end": 80.62
+  },
+  {
+   "w": "a",
+   "start": 80.66,
+   "end": 80.76
+  },
+  {
+   "w": "faire.",
+   "start": 80.8,
+   "end": 81.04
+  },
+  {
+   "w": "Pas",
+   "start": 81.46,
+   "end": 81.54
+  },
+  {
+   "w": "de",
+   "start": 81.58,
+   "end": 81.62
+  },
+  {
+   "w": "graphique",
+   "start": 81.64,
+   "end": 81.96
+  },
+  {
+   "w": "a",
+   "start": 82.0,
+   "end": 82.04
+  },
+  {
+   "w": "surveiller,",
+   "start": 82.08,
+   "end": 82.52
+  },
+  {
+   "w": "pas",
+   "start": 82.9,
+   "end": 82.98
+  },
+  {
+   "w": "de",
+   "start": 83.02,
+   "end": 83.06
+  },
+  {
+   "w": "signal",
+   "start": 83.12,
+   "end": 83.36
+  },
+  {
+   "w": "a",
+   "start": 83.4,
+   "end": 83.48
+  },
+  {
+   "w": "suivre,",
+   "start": 83.52,
+   "end": 83.82
+  },
+  {
+   "w": "rien",
+   "start": 84.18,
+   "end": 84.4
+  },
+  {
+   "w": "a",
+   "start": 84.44,
+   "end": 84.5
+  },
+  {
+   "w": "cliquer.",
+   "start": 84.52,
+   "end": 84.84
+  },
+  {
+   "w": "Concretement,",
+   "start": 85.76,
+   "end": 86.2
+  },
+  {
+   "w": "tu",
+   "start": 86.74,
+   "end": 86.8
+  },
+  {
+   "w": "ouvres",
+   "start": 86.84,
+   "end": 87.0
+  },
+  {
+   "w": "un",
+   "start": 87.04,
+   "end": 87.14
+  },
+  {
+   "w": "compte",
+   "start": 87.16,
+   "end": 87.34
+  },
+  {
+   "w": "a",
+   "start": 87.38,
+   "end": 87.48
+  },
+  {
+   "w": "ton",
+   "start": 87.52,
+   "end": 87.62
+  },
+  {
+   "w": "nom",
+   "start": 87.7,
+   "end": 87.82
+  },
+  {
+   "w": "chez",
+   "start": 87.98,
+   "end": 88.08
+  },
+  {
+   "w": "notre",
+   "start": 88.1,
+   "end": 88.34
+  },
+  {
+   "w": "courtier",
+   "start": 88.38,
+   "end": 88.68
+  },
+  {
+   "w": "partenaire.",
+   "start": 88.72,
+   "end": 89.22
+  },
+  {
+   "w": "Tu",
+   "start": 89.64,
+   "end": 89.7
+  },
+  {
+   "w": "y",
+   "start": 89.74,
+   "end": 89.8
+  },
+  {
+   "w": "deposes",
+   "start": 89.84,
+   "end": 90.14
+  },
+  {
+   "w": "ton",
+   "start": 90.16,
+   "end": 90.26
+  },
+  {
+   "w": "capital,",
+   "start": 90.3,
+   "end": 90.76
+  },
+  {
+   "w": "tu",
+   "start": 91.12,
+   "end": 91.18
+  },
+  {
+   "w": "demandes",
+   "start": 91.28,
+   "end": 91.54
+  },
+  {
+   "w": "l'acces",
+   "start": 91.56,
+   "end": 91.9
+  },
+  {
+   "w": "et",
+   "start": 92.36,
+   "end": 92.46
+  },
+  {
+   "w": "chaque",
+   "start": 92.54,
+   "end": 92.74
+  },
+  {
+   "w": "position",
+   "start": 92.78,
+   "end": 93.16
+  },
+  {
+   "w": "de",
+   "start": 93.2,
+   "end": 93.26
+  },
+  {
+   "w": "la",
+   "start": 93.3,
+   "end": 93.34
+  },
+  {
+   "w": "strategie",
+   "start": 93.4,
+   "end": 93.82
+  },
+  {
+   "w": "se",
+   "start": 93.9,
+   "end": 94.0
+  },
+  {
+   "w": "copie",
+   "start": 94.04,
+   "end": 94.4
+  },
+  {
+   "w": "automatiquement",
+   "start": 94.44,
+   "end": 95.04
+  },
+  {
+   "w": "chez",
+   "start": 95.08,
+   "end": 95.2
+  },
+  {
+   "w": "toi.",
+   "start": 95.24,
+   "end": 95.4
+  },
+  {
+   "w": "Ton",
+   "start": 96.34,
+   "end": 96.44
+  },
+  {
+   "w": "argent",
+   "start": 96.52,
+   "end": 96.72
+  },
+  {
+   "w": "ne",
+   "start": 96.76,
+   "end": 96.82
+  },
+  {
+   "w": "quitte",
+   "start": 96.9,
+   "end": 97.14
+  },
+  {
+   "w": "jamais",
+   "start": 97.22,
+   "end": 97.46
+  },
+  {
+   "w": "ton",
+   "start": 97.5,
+   "end": 97.64
+  },
+  {
+   "w": "compte.",
+   "start": 97.68,
+   "end": 97.92
+  },
+  {
+   "w": "Personne",
+   "start": 98.32,
+   "end": 98.66
+  },
+  {
+   "w": "d'autre",
+   "start": 98.7,
+   "end": 98.96
+  },
+  {
+   "w": "que",
+   "start": 99.0,
+   "end": 99.14
+  },
+  {
+   "w": "toi",
+   "start": 99.2,
+   "end": 99.36
+  },
+  {
+   "w": "ne",
+   "start": 99.4,
+   "end": 99.46
+  },
+  {
+   "w": "peut",
+   "start": 99.54,
+   "end": 99.6
+  },
+  {
+   "w": "le",
+   "start": 99.64,
+   "end": 99.68
+  },
+  {
+   "w": "retirer.",
+   "start": 99.72,
+   "end": 100.12
+  },
+  {
+   "w": "Et",
+   "start": 100.52,
+   "end": 100.58
+  },
+  {
+   "w": "tu",
+   "start": 100.62,
+   "end": 100.66
+  },
+  {
+   "w": "peux",
+   "start": 100.74,
+   "end": 100.92
+  },
+  {
+   "w": "tout",
+   "start": 100.96,
+   "end": 101.12
+  },
+  {
+   "w": "arreter",
+   "start": 101.18,
+   "end": 101.5
+  },
+  {
+   "w": "quand",
+   "start": 101.8,
+   "end": 101.92
+  },
+  {
+   "w": "tu",
+   "start": 101.96,
+   "end": 102.04
+  },
+  {
+   "w": "veux.",
+   "start": 102.12,
+   "end": 102.24
+  },
+  {
+   "w": "Et",
+   "start": 103.16,
+   "end": 103.22
+  },
+  {
+   "w": "nous,",
+   "start": 103.28,
+   "end": 103.38
+  },
+  {
+   "w": "dans",
+   "start": 103.6,
+   "end": 103.7
+  },
+  {
+   "w": "tout",
+   "start": 103.72,
+   "end": 103.82
+  },
+  {
+   "w": "ca",
+   "start": 103.88,
+   "end": 103.96
+  },
+  {
+   "w": "On",
+   "start": 104.48,
+   "end": 104.54
+  },
+  {
+   "w": "n'est",
+   "start": 104.58,
+   "end": 104.7
+  },
+  {
+   "w": "paye",
+   "start": 104.72,
+   "end": 105.04
+  },
+  {
+   "w": "que",
+   "start": 105.08,
+   "end": 105.22
+  },
+  {
+   "w": "sur",
+   "start": 105.26,
+   "end": 105.38
+  },
+  {
+   "w": "les",
+   "start": 105.42,
+   "end": 105.52
+  },
+  {
+   "w": "gains.",
+   "start": 105.56,
+   "end": 105.72
+  },
+  {
+   "w": "Pas",
+   "start": 106.1,
+   "end": 106.18
+  },
+  {
+   "w": "de",
+   "start": 106.22,
+   "end": 106.28
+  },
+  {
+   "w": "gains,",
+   "start": 106.32,
+   "end": 106.48
+  },
+  {
+   "w": "pas",
+   "start": 106.8,
+   "end": 106.86
+  },
+  {
+   "w": "de",
+   "start": 106.9,
+   "end": 106.94
+  },
+  {
+   "w": "commission.",
+   "start": 106.98,
+   "end": 107.42
+  },
+  {
+   "w": "Notre",
+   "start": 107.84,
+   "end": 108.0
+  },
+  {
+   "w": "interet",
+   "start": 108.04,
+   "end": 108.34
+  },
+  {
+   "w": "est",
+   "start": 108.36,
+   "end": 108.5
+  },
+  {
+   "w": "simple",
+   "start": 108.56,
+   "end": 108.86
+  },
+  {
+   "w": "que",
+   "start": 109.16,
+   "end": 109.22
+  },
+  {
+   "w": "ton",
+   "start": 109.3,
+   "end": 109.38
+  },
+  {
+   "w": "compte",
+   "start": 109.48,
+   "end": 109.64
+  },
+  {
+   "w": "progresse.",
+   "start": 109.76,
+   "end": 110.34
+  },
+  {
+   "w": "Ici,",
+   "start": 111.28,
+   "end": 111.6
+  },
+  {
+   "w": "pas",
+   "start": 111.88,
+   "end": 111.94
+  },
+  {
+   "w": "de",
+   "start": 111.98,
+   "end": 112.04
+  },
+  {
+   "w": "promesses",
+   "start": 112.06,
+   "end": 112.38
+  },
+  {
+   "w": "en",
+   "start": 112.42,
+   "end": 112.48
+  },
+  {
+   "w": "l'air,",
+   "start": 112.52,
+   "end": 112.74
+  },
+  {
+   "w": "pas",
+   "start": 112.94,
+   "end": 113.02
+  },
+  {
+   "w": "de",
+   "start": 113.06,
+   "end": 113.1
+  },
+  {
+   "w": "captures",
+   "start": 113.14,
+   "end": 113.42
+  },
+  {
+   "w": "d'ecran.",
+   "start": 113.44,
+   "end": 113.76
+  },
+  {
+   "w": "Un",
+   "start": 114.22,
+   "end": 114.3
+  },
+  {
+   "w": "historique",
+   "start": 114.32,
+   "end": 114.72
+  },
+  {
+   "w": "en",
+   "start": 114.76,
+   "end": 114.84
+  },
+  {
+   "w": "argent",
+   "start": 114.9,
+   "end": 115.2
+  },
+  {
+   "w": "reel",
+   "start": 115.26,
+   "end": 115.58
+  },
+  {
+   "w": "verifiable",
+   "start": 115.84,
+   "end": 116.42
+  },
+  {
+   "w": "par",
+   "start": 116.46,
+   "end": 116.56
+  },
+  {
+   "w": "n'importe",
+   "start": 116.66,
+   "end": 117.08
+  },
+  {
+   "w": "qui",
+   "start": 117.18,
+   "end": 117.3
+  },
+  {
+   "w": "sur",
+   "start": 117.6,
+   "end": 117.74
+  },
+  {
+   "w": "MyFxBook.",
+   "start": 117.8,
+   "end": 118.52
+  },
+  {
+   "w": "Pas",
+   "start": 119.04,
+   "end": 119.14
+  },
+  {
+   "w": "besoin",
+   "start": 119.16,
+   "end": 119.38
+  },
+  {
+   "w": "d'etre",
+   "start": 119.42,
+   "end": 119.66
+  },
+  {
+   "w": "trader",
+   "start": 119.7,
+   "end": 120.04
+  },
+  {
+   "w": "pour",
+   "start": 120.06,
+   "end": 120.16
+  },
+  {
+   "w": "le",
+   "start": 120.18,
+   "end": 120.26
+  },
+  {
+   "w": "lire,",
+   "start": 120.3,
+   "end": 120.52
+  },
+  {
+   "w": "juste",
+   "start": 120.92,
+   "end": 121.24
+  },
+  {
+   "w": "de",
+   "start": 121.28,
+   "end": 121.4
+  },
+  {
+   "w": "vouloir",
+   "start": 121.42,
+   "end": 121.68
+  },
+  {
+   "w": "comprendre.",
+   "start": 121.76,
+   "end": 122.22
+  },
+  {
+   "w": "C'est",
+   "start": 122.72,
+   "end": 122.78
+  },
+  {
+   "w": "d'ailleurs",
+   "start": 122.8,
+   "end": 123.06
+  },
+  {
+   "w": "pour",
+   "start": 123.1,
+   "end": 123.26
+  },
+  {
+   "w": "ca",
+   "start": 123.32,
+   "end": 123.38
+  },
+  {
+   "w": "que",
+   "start": 123.46,
+   "end": 123.54
+  },
+  {
+   "w": "l'acces",
+   "start": 123.58,
+   "end": 123.82
+  },
+  {
+   "w": "se",
+   "start": 123.86,
+   "end": 123.96
+  },
+  {
+   "w": "fait",
+   "start": 124.0,
+   "end": 124.1
+  },
+  {
+   "w": "sur",
+   "start": 124.16,
+   "end": 124.3
+  },
+  {
+   "w": "demande.",
+   "start": 124.34,
+   "end": 124.68
+  },
+  {
+   "w": "On",
+   "start": 125.06,
+   "end": 125.12
+  },
+  {
+   "w": "prefere",
+   "start": 125.16,
+   "end": 125.46
+  },
+  {
+   "w": "des",
+   "start": 125.48,
+   "end": 125.58
+  },
+  {
+   "w": "gens",
+   "start": 125.6,
+   "end": 125.76
+  },
+  {
+   "w": "qui",
+   "start": 125.78,
+   "end": 125.86
+  },
+  {
+   "w": "ont",
+   "start": 125.88,
+   "end": 126.0
+  },
+  {
+   "w": "compris",
+   "start": 126.06,
+   "end": 126.42
+  },
+  {
+   "w": "a",
+   "start": 126.78,
+   "end": 126.8
+  },
+  {
+   "w": "des",
+   "start": 126.84,
+   "end": 126.94
+  },
+  {
+   "w": "gens",
+   "start": 126.96,
+   "end": 127.1
+  },
+  {
+   "w": "presses.",
+   "start": 127.14,
+   "end": 127.5
+  },
+  {
+   "w": "Alors",
+   "start": 128.62,
+   "end": 128.78
+  },
+  {
+   "w": "imagine,",
+   "start": 128.82,
+   "end": 129.2
+  },
+  {
+   "w": "tu",
+   "start": 129.68,
+   "end": 129.74
+  },
+  {
+   "w": "sors",
+   "start": 129.86,
+   "end": 130.0
+  },
+  {
+   "w": "de",
+   "start": 130.04,
+   "end": 130.12
+  },
+  {
+   "w": "ta",
+   "start": 130.14,
+   "end": 130.22
+  },
+  {
+   "w": "reunion,",
+   "start": 130.28,
+   "end": 130.64
+  },
+  {
+   "w": "tu",
+   "start": 131.0,
+   "end": 131.08
+  },
+  {
+   "w": "ouvres",
+   "start": 131.12,
+   "end": 131.32
+  },
+  {
+   "w": "ton",
+   "start": 131.36,
+   "end": 131.44
+  },
+  {
+   "w": "telephone.",
+   "start": 131.5,
+   "end": 131.98
+  },
+  {
+   "w": "Pendant",
+   "start": 132.48,
+   "end": 132.68
+  },
+  {
+   "w": "que",
+   "start": 132.72,
+   "end": 132.8
+  },
+  {
+   "w": "tu",
+   "start": 132.84,
+   "end": 132.96
+  },
+  {
+   "w": "vivais",
+   "start": 132.98,
+   "end": 133.2
+  },
+  {
+   "w": "ta",
+   "start": 133.24,
+   "end": 133.34
+  },
+  {
+   "w": "journee,",
+   "start": 133.38,
+   "end": 133.68
+  },
+  {
+   "w": "ta",
+   "start": 133.98,
+   "end": 134.04
+  },
+  {
+   "w": "strategie",
+   "start": 134.119,
+   "end": 134.58
+  },
+  {
+   "w": "a",
+   "start": 134.619,
+   "end": 134.7
+  },
+  {
+   "w": "suivi",
+   "start": 134.76,
+   "end": 135.0
+  },
+  {
+   "w": "ses",
+   "start": 135.06,
+   "end": 135.179
+  },
+  {
+   "w": "regles.",
+   "start": 135.22,
+   "end": 135.5
+  },
+  {
+   "w": "Sans",
+   "start": 135.899,
+   "end": 136.02
+  },
+  {
+   "w": "stress,",
+   "start": 136.1,
+   "end": 136.459
+  },
+  {
+   "w": "sans",
+   "start": 136.76,
+   "end": 136.92
+  },
+  {
+   "w": "ecran,",
+   "start": 136.98,
+   "end": 137.26
+  },
+  {
+   "w": "sans",
+   "start": 137.64,
+   "end": 137.8
+  },
+  {
+   "w": "toi.",
+   "start": 137.84,
+   "end": 138.02
+  },
+  {
+   "w": "Tu",
+   "start": 138.6,
+   "end": 138.66
+  },
+  {
+   "w": "gardes",
+   "start": 138.74,
+   "end": 139.0
+  },
+  {
+   "w": "ton",
+   "start": 139.02,
+   "end": 139.12
+  },
+  {
+   "w": "travail,",
+   "start": 139.16,
+   "end": 139.58
+  },
+  {
+   "w": "elle",
+   "start": 139.94,
+   "end": 140.04
+  },
+  {
+   "w": "garde",
+   "start": 140.16,
+   "end": 140.38
+  },
+  {
+   "w": "la",
+   "start": 140.42,
+   "end": 140.5
+  },
+  {
+   "w": "discipline.",
+   "start": 140.54,
+   "end": 141.08
+  },
+  {
+   "w": "Compound",
+   "start": 148.72,
+   "end": 149.1
+  },
+  {
+   "w": "Capital.",
+   "start": 149.16,
+   "end": 149.66
+  },
+  {
+   "w": "Comprendre",
+   "start": 150.14,
+   "end": 150.82
+  },
+  {
+   "w": "avant",
+   "start": 150.9,
+   "end": 151.1
+  },
+  {
+   "w": "de",
+   "start": 151.14,
+   "end": 151.2
+  },
+  {
+   "w": "decider.",
+   "start": 151.24,
+   "end": 151.66
+  }
+ ]
+}
