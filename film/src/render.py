@@ -45,8 +45,8 @@ COMMON_FLAGS = [
 
 
 def build_url(args):
-    q = f"w={args.width}&h={args.height}&detail={args.detail}&fps={args.fps}"
-    return f"http://127.0.0.1:{args.port}/src/film.html?{q}"
+    q = f"w={args.width}&h={args.height}&detail={args.detail}&fps={args.fps}&v={args.variant}"
+    return f"http://127.0.0.1:{args.port}/src/{args.page}.html?{q}"
 
 
 def main():
@@ -56,6 +56,8 @@ def main():
     ap.add_argument("--height", type=int, default=1920)
     ap.add_argument("--detail", type=int, default=112)
     ap.add_argument("--fps", type=int, default=30)
+    ap.add_argument("--page", default="motion", help="film (3D) ou motion (2D)")
+    ap.add_argument("--variant", default="ig", help="ig ou tt")
     ap.add_argument("--gl", choices=list(GL_FLAGS), default="llvmpipe")
     ap.add_argument("--still", type=float, action="append",
                     help="instant (s) a sortir en PNG ; repetable")
@@ -106,9 +108,12 @@ def main():
             Path(args.out).parent.mkdir(parents=True, exist_ok=True)
             for t in args.still:
                 s = time.time()
-                page.evaluate("t => window.FILM.renderAt(t)", t)
+                data = page.evaluate("""t => { window.FILM.renderAt(t);
+                    const c = document.getElementById('stage');
+                    return c.toDataURL('image/png').split(',')[1]; }""", t)
                 target = f"{args.out}_{t:06.2f}.png".replace(" ", "0")
-                page.locator("#stage").screenshot(path=target)
+                import base64
+                Path(target).write_bytes(base64.b64decode(data))
                 print(f"  {target}  ({time.time()-s:.1f}s)", flush=True)
 
         if args.range:
