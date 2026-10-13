@@ -1,12 +1,12 @@
 {
  "variant": "tt",
- "duration": 150.6,
+ "duration": 150.54,
  "cta": {
-  "start": 142.06,
-  "end": 146.94,
+  "start": 142.0,
+  "end": 146.88,
   "source": "voix_cta_b.mp3"
  },
- "signature_start": 147.22,
+ "signature_start": 147.16,
  "words": [
   {
    "w": "Ton",
@@ -954,1159 +954,1154 @@
    "end": 66.54
   },
   {
-   "w": "Une",
-   "start": 67.0,
-   "end": 67.08
+   "w": "Un",
+   "start": 66.99,
+   "end": 67.09
   },
   {
-   "w": "strategie",
-   "start": 67.14,
-   "end": 67.66
+   "w": "algorithme",
+   "start": 67.17,
+   "end": 67.59
   },
   {
    "w": "automatique",
-   "start": 67.7,
-   "end": 68.239
+   "start": 67.61,
+   "end": 68.09
   },
   {
    "w": "sur",
-   "start": 68.3,
-   "end": 68.42
+   "start": 68.15,
+   "end": 68.29
   },
   {
    "w": "l'euro-dollar,",
-   "start": 68.48,
-   "end": 69.04
+   "start": 68.33,
+   "end": 68.95
   },
   {
    "w": "le",
-   "start": 69.32,
-   "end": 69.4
+   "start": 69.27,
+   "end": 69.31
   },
   {
    "w": "marche",
-   "start": 69.44,
-   "end": 69.7
+   "start": 69.39,
+   "end": 69.67
   },
   {
    "w": "le",
-   "start": 69.74,
-   "end": 69.78
+   "start": 69.71,
+   "end": 69.75
   },
   {
    "w": "plus",
-   "start": 69.86,
-   "end": 70.06
+   "start": 69.87,
+   "end": 70.07
   },
   {
    "w": "echange",
-   "start": 70.12,
-   "end": 70.48
+   "start": 70.15,
+   "end": 70.55
   },
   {
    "w": "au",
-   "start": 70.5,
-   "end": 70.56
+   "start": 70.57,
+   "end": 70.61
   },
   {
    "w": "monde.",
-   "start": 70.64,
-   "end": 70.86
+   "start": 70.69,
+   "end": 70.95
   },
   {
    "w": "Un",
-   "start": 71.34,
-   "end": 71.4
+   "start": 71.45,
+   "end": 71.51
   },
   {
    "w": "seul",
-   "start": 71.48,
-   "end": 71.62
+   "start": 71.59,
+   "end": 71.73
   },
   {
    "w": "marche",
-   "start": 71.66,
-   "end": 72.0
+   "start": 71.77,
+   "end": 72.11
   },
   {
    "w": "etudie",
-   "start": 72.36,
-   "end": 72.84
+   "start": 72.47,
+   "end": 72.95
   },
   {
    "w": "par",
-   "start": 72.88,
-   "end": 73.0
+   "start": 72.99,
+   "end": 73.11
   },
   {
    "w": "coeur.",
-   "start": 73.1,
-   "end": 73.38
+   "start": 73.21,
+   "end": 73.49
   },
   {
-   "w": "Elle",
-   "start": 73.86,
-   "end": 73.98
+   "w": "Il",
+   "start": 73.97,
+   "end": 74.07
   },
   {
    "w": "lit",
-   "start": 74.02,
-   "end": 74.12
+   "start": 74.11,
+   "end": 74.19
   },
   {
    "w": "les",
-   "start": 74.16,
-   "end": 74.28
+   "start": 74.23,
+   "end": 74.35
   },
   {
    "w": "chiffres,",
-   "start": 74.34,
-   "end": 74.66
+   "start": 74.43,
+   "end": 74.77
   },
   {
    "w": "pas",
-   "start": 74.9,
-   "end": 74.98
+   "start": 75.01,
+   "end": 75.09
   },
   {
    "w": "les",
-   "start": 75.02,
-   "end": 75.08
+   "start": 75.11,
+   "end": 75.19
   },
   {
    "w": "rumeurs.",
-   "start": 75.12,
-   "end": 75.52
+   "start": 75.23,
+   "end": 75.63
   },
   {
-   "w": "Elle",
-   "start": 75.9,
-   "end": 75.98
+   "w": "Il",
+   "start": 76.03,
+   "end": 76.07
   },
   {
    "w": "applique",
-   "start": 76.02,
-   "end": 76.26
+   "start": 76.13,
+   "end": 76.37
   },
   {
    "w": "ses",
-   "start": 76.32,
-   "end": 76.42
+   "start": 76.41,
+   "end": 76.51
   },
   {
    "w": "regles",
-   "start": 76.46,
-   "end": 76.78
+   "start": 76.55,
+   "end": 76.83
   },
   {
    "w": "sans",
-   "start": 76.86,
-   "end": 77.02
+   "start": 76.89,
+   "end": 77.05
   },
   {
-   "w": "emotion",
-   "start": 77.08,
-   "end": 77.5
+   "w": "emotion,",
+   "start": 77.11,
+   "end": 77.55
   },
   {
    "w": "du",
-   "start": 77.8,
-   "end": 77.88
+   "start": 77.83,
+   "end": 77.91
   },
   {
    "w": "lundi",
-   "start": 77.98,
-   "end": 78.4
+   "start": 77.97,
+   "end": 78.39
   },
   {
    "w": "au",
-   "start": 78.44,
-   "end": 78.5
+   "start": 78.43,
+   "end": 78.47
   },
   {
    "w": "vendredi.",
-   "start": 78.56,
-   "end": 79.0
+   "start": 78.53,
+   "end": 78.97
   },
   {
    "w": "Et",
-   "start": 79.46,
-   "end": 79.54
+   "start": 79.45,
+   "end": 79.53
   },
   {
    "w": "toi,",
-   "start": 79.58,
-   "end": 79.74
+   "start": 79.57,
+   "end": 79.73
   },
   {
    "w": "tu",
-   "start": 80.12,
-   "end": 80.18
+   "start": 80.11,
+   "end": 80.17
   },
   {
    "w": "n'as",
-   "start": 80.22,
-   "end": 80.34
+   "start": 80.21,
+   "end": 80.33
   },
   {
    "w": "rien",
-   "start": 80.42,
-   "end": 80.62
+   "start": 80.41,
+   "end": 80.61
   },
   {
    "w": "a",
-   "start": 80.66,
-   "end": 80.76
+   "start": 80.65,
+   "end": 80.75
   },
   {
    "w": "faire.",
-   "start": 80.8,
-   "end": 81.04
+   "start": 80.79,
+   "end": 81.03
   },
   {
    "w": "Pas",
-   "start": 81.46,
-   "end": 81.54
+   "start": 81.45,
+   "end": 81.53
   },
   {
    "w": "de",
-   "start": 81.58,
-   "end": 81.62
+   "start": 81.57,
+   "end": 81.61
   },
   {
    "w": "graphique",
-   "start": 81.64,
-   "end": 81.96
+   "start": 81.63,
+   "end": 81.95
   },
   {
    "w": "a",
-   "start": 82.0,
-   "end": 82.04
+   "start": 81.99,
+   "end": 82.03
   },
   {
    "w": "surveiller,",
-   "start": 82.08,
-   "end": 82.52
+   "start": 82.07,
+   "end": 82.51
   },
   {
    "w": "pas",
-   "start": 82.9,
-   "end": 82.98
+   "start": 82.89,
+   "end": 82.97
   },
   {
    "w": "de",
-   "start": 83.02,
-   "end": 83.06
+   "start": 83.01,
+   "end": 83.05
   },
   {
    "w": "signal",
-   "start": 83.12,
-   "end": 83.36
+   "start": 83.11,
+   "end": 83.35
   },
   {
    "w": "a",
-   "start": 83.4,
-   "end": 83.48
+   "start": 83.39,
+   "end": 83.47
   },
   {
    "w": "suivre,",
-   "start": 83.52,
-   "end": 83.82
+   "start": 83.51,
+   "end": 83.81
   },
   {
    "w": "rien",
-   "start": 84.18,
-   "end": 84.4
+   "start": 84.17,
+   "end": 84.39
   },
   {
    "w": "a",
-   "start": 84.44,
-   "end": 84.5
+   "start": 84.43,
+   "end": 84.49
   },
   {
    "w": "cliquer.",
-   "start": 84.52,
-   "end": 84.84
+   "start": 84.51,
+   "end": 84.83
   },
   {
    "w": "Concretement,",
-   "start": 85.76,
-   "end": 86.2
+   "start": 85.75,
+   "end": 86.19
   },
   {
    "w": "tu",
-   "start": 86.74,
-   "end": 86.8
+   "start": 86.73,
+   "end": 86.79
   },
   {
    "w": "ouvres",
-   "start": 86.84,
-   "end": 87.0
+   "start": 86.83,
+   "end": 86.99
   },
   {
    "w": "un",
-   "start": 87.04,
-   "end": 87.14
+   "start": 87.03,
+   "end": 87.13
   },
   {
    "w": "compte",
-   "start": 87.16,
-   "end": 87.34
+   "start": 87.15,
+   "end": 87.33
   },
   {
    "w": "a",
-   "start": 87.38,
-   "end": 87.48
+   "start": 87.37,
+   "end": 87.47
   },
   {
    "w": "ton",
-   "start": 87.52,
-   "end": 87.62
+   "start": 87.51,
+   "end": 87.61
   },
   {
    "w": "nom",
-   "start": 87.7,
-   "end": 87.82
+   "start": 87.69,
+   "end": 87.81
   },
   {
    "w": "chez",
-   "start": 87.98,
-   "end": 88.08
+   "start": 87.97,
+   "end": 88.07
   },
   {
    "w": "notre",
-   "start": 88.1,
-   "end": 88.34
+   "start": 88.09,
+   "end": 88.33
   },
   {
    "w": "courtier",
-   "start": 88.38,
-   "end": 88.68
+   "start": 88.37,
+   "end": 88.67
   },
   {
    "w": "partenaire.",
-   "start": 88.72,
-   "end": 89.22
+   "start": 88.71,
+   "end": 89.21
   },
   {
    "w": "Tu",
-   "start": 89.64,
-   "end": 89.7
+   "start": 89.63,
+   "end": 89.69
   },
   {
    "w": "y",
-   "start": 89.74,
-   "end": 89.8
+   "start": 89.73,
+   "end": 89.79
   },
   {
    "w": "deposes",
-   "start": 89.84,
-   "end": 90.14
+   "start": 89.83,
+   "end": 90.13
   },
   {
    "w": "ton",
-   "start": 90.16,
-   "end": 90.26
+   "start": 90.15,
+   "end": 90.25
   },
   {
    "w": "capital,",
-   "start": 90.3,
-   "end": 90.76
+   "start": 90.29,
+   "end": 90.75
   },
   {
    "w": "tu",
-   "start": 91.12,
-   "end": 91.18
+   "start": 91.11,
+   "end": 91.17
   },
   {
    "w": "demandes",
-   "start": 91.28,
-   "end": 91.54
+   "start": 91.27,
+   "end": 91.53
   },
   {
    "w": "l'acces",
-   "start": 91.56,
-   "end": 91.9
+   "start": 91.55,
+   "end": 91.89
   },
   {
-   "w": "et",
-   "start": 92.36,
-   "end": 92.46
+   "w": "Et",
+   "start": 92.35,
+   "end": 92.45
   },
   {
    "w": "chaque",
-   "start": 92.54,
-   "end": 92.74
+   "start": 92.53,
+   "end": 92.73
   },
   {
    "w": "position",
-   "start": 92.78,
-   "end": 93.16
+   "start": 92.77,
+   "end": 93.17
   },
   {
    "w": "de",
-   "start": 93.2,
-   "end": 93.26
+   "start": 93.19,
+   "end": 93.25
   },
   {
-   "w": "la",
-   "start": 93.3,
-   "end": 93.34
-  },
-  {
-   "w": "strategie",
-   "start": 93.4,
-   "end": 93.82
+   "w": "l'algorithme",
+   "start": 93.29,
+   "end": 93.77
   },
   {
    "w": "se",
-   "start": 93.9,
-   "end": 94.0
+   "start": 93.89,
+   "end": 93.99
   },
   {
    "w": "copie",
-   "start": 94.04,
-   "end": 94.4
+   "start": 94.03,
+   "end": 94.25
   },
   {
    "w": "automatiquement",
-   "start": 94.44,
-   "end": 95.04
+   "start": 94.41,
+   "end": 95.07
   },
   {
    "w": "chez",
-   "start": 95.08,
-   "end": 95.2
+   "start": 95.09,
+   "end": 95.23
   },
   {
    "w": "toi.",
-   "start": 95.24,
-   "end": 95.4
+   "start": 95.27,
+   "end": 95.45
   },
   {
    "w": "Ton",
-   "start": 96.34,
-   "end": 96.44
+   "start": 96.41,
+   "end": 96.51
   },
   {
    "w": "argent",
-   "start": 96.52,
-   "end": 96.72
+   "start": 96.59,
+   "end": 96.79
   },
   {
    "w": "ne",
-   "start": 96.76,
-   "end": 96.82
+   "start": 96.83,
+   "end": 96.89
   },
   {
    "w": "quitte",
-   "start": 96.9,
-   "end": 97.14
+   "start": 96.97,
+   "end": 97.21
   },
   {
    "w": "jamais",
-   "start": 97.22,
-   "end": 97.46
+   "start": 97.29,
+   "end": 97.53
   },
   {
    "w": "ton",
-   "start": 97.5,
-   "end": 97.64
+   "start": 97.57,
+   "end": 97.71
   },
   {
    "w": "compte.",
-   "start": 97.68,
-   "end": 97.92
+   "start": 97.75,
+   "end": 97.99
   },
   {
    "w": "Personne",
-   "start": 98.32,
-   "end": 98.66
+   "start": 98.39,
+   "end": 98.73
   },
   {
    "w": "d'autre",
-   "start": 98.7,
-   "end": 98.96
+   "start": 98.77,
+   "end": 99.03
   },
   {
    "w": "que",
-   "start": 99.0,
-   "end": 99.14
+   "start": 99.07,
+   "end": 99.21
   },
   {
    "w": "toi",
-   "start": 99.2,
-   "end": 99.36
+   "start": 99.27,
+   "end": 99.43
   },
   {
    "w": "ne",
-   "start": 99.4,
-   "end": 99.46
+   "start": 99.47,
+   "end": 99.53
   },
   {
    "w": "peut",
-   "start": 99.54,
-   "end": 99.6
+   "start": 99.61,
+   "end": 99.67
   },
   {
    "w": "le",
-   "start": 99.64,
-   "end": 99.68
+   "start": 99.71,
+   "end": 99.75
   },
   {
    "w": "retirer.",
-   "start": 99.72,
-   "end": 100.12
+   "start": 99.79,
+   "end": 100.19
   },
   {
    "w": "Et",
-   "start": 100.52,
-   "end": 100.58
+   "start": 100.59,
+   "end": 100.65
   },
   {
    "w": "tu",
-   "start": 100.62,
-   "end": 100.66
+   "start": 100.69,
+   "end": 100.73
   },
   {
    "w": "peux",
-   "start": 100.74,
-   "end": 100.92
+   "start": 100.81,
+   "end": 100.99
   },
   {
    "w": "tout",
-   "start": 100.96,
-   "end": 101.12
+   "start": 101.03,
+   "end": 101.19
   },
   {
    "w": "arreter",
-   "start": 101.18,
-   "end": 101.5
+   "start": 101.25,
+   "end": 101.57
   },
   {
    "w": "quand",
-   "start": 101.8,
-   "end": 101.92
+   "start": 101.87,
+   "end": 101.99
   },
   {
    "w": "tu",
-   "start": 101.96,
-   "end": 102.04
+   "start": 102.03,
+   "end": 102.11
   },
   {
    "w": "veux.",
-   "start": 102.12,
-   "end": 102.24
+   "start": 102.19,
+   "end": 102.31
   },
   {
    "w": "Et",
-   "start": 103.16,
-   "end": 103.22
+   "start": 103.23,
+   "end": 103.29
   },
   {
    "w": "nous,",
-   "start": 103.28,
-   "end": 103.38
+   "start": 103.35,
+   "end": 103.45
   },
   {
    "w": "dans",
-   "start": 103.6,
-   "end": 103.7
+   "start": 103.67,
+   "end": 103.77
   },
   {
    "w": "tout",
-   "start": 103.72,
-   "end": 103.82
+   "start": 103.79,
+   "end": 103.89
   },
   {
    "w": "ca",
-   "start": 103.88,
-   "end": 103.96
+   "start": 103.95,
+   "end": 104.03
   },
   {
    "w": "On",
-   "start": 104.48,
-   "end": 104.54
+   "start": 104.55,
+   "end": 104.61
   },
   {
    "w": "n'est",
-   "start": 104.58,
-   "end": 104.7
+   "start": 104.65,
+   "end": 104.77
   },
   {
    "w": "paye",
-   "start": 104.72,
-   "end": 105.04
+   "start": 104.79,
+   "end": 105.11
   },
   {
    "w": "que",
-   "start": 105.08,
-   "end": 105.22
+   "start": 105.15,
+   "end": 105.29
   },
   {
    "w": "sur",
-   "start": 105.26,
-   "end": 105.38
+   "start": 105.33,
+   "end": 105.45
   },
   {
    "w": "les",
-   "start": 105.42,
-   "end": 105.52
+   "start": 105.49,
+   "end": 105.59
   },
   {
    "w": "gains.",
-   "start": 105.56,
-   "end": 105.72
+   "start": 105.63,
+   "end": 105.79
   },
   {
    "w": "Pas",
-   "start": 106.1,
-   "end": 106.18
+   "start": 106.17,
+   "end": 106.25
   },
   {
    "w": "de",
-   "start": 106.22,
-   "end": 106.28
+   "start": 106.29,
+   "end": 106.35
   },
   {
    "w": "gains,",
-   "start": 106.32,
-   "end": 106.48
+   "start": 106.39,
+   "end": 106.55
   },
   {
    "w": "pas",
-   "start": 106.8,
-   "end": 106.86
+   "start": 106.87,
+   "end": 106.93
   },
   {
    "w": "de",
-   "start": 106.9,
-   "end": 106.94
+   "start": 106.97,
+   "end": 107.01
   },
   {
    "w": "commission.",
-   "start": 106.98,
-   "end": 107.42
+   "start": 107.05,
+   "end": 107.49
   },
   {
    "w": "Notre",
-   "start": 107.84,
-   "end": 108.0
+   "start": 107.91,
+   "end": 108.07
   },
   {
    "w": "interet",
-   "start": 108.04,
-   "end": 108.34
+   "start": 108.11,
+   "end": 108.41
   },
   {
    "w": "est",
-   "start": 108.36,
-   "end": 108.5
+   "start": 108.43,
+   "end": 108.57
   },
   {
    "w": "simple",
-   "start": 108.56,
-   "end": 108.86
+   "start": 108.63,
+   "end": 108.93
   },
   {
    "w": "que",
-   "start": 109.16,
-   "end": 109.22
+   "start": 109.23,
+   "end": 109.29
   },
   {
    "w": "ton",
-   "start": 109.3,
-   "end": 109.38
+   "start": 109.37,
+   "end": 109.45
   },
   {
    "w": "compte",
-   "start": 109.48,
-   "end": 109.64
+   "start": 109.55,
+   "end": 109.71
   },
   {
    "w": "progresse.",
-   "start": 109.76,
-   "end": 110.34
+   "start": 109.83,
+   "end": 110.41
   },
   {
    "w": "Ici,",
-   "start": 111.28,
-   "end": 111.6
+   "start": 111.35,
+   "end": 111.67
   },
   {
    "w": "pas",
-   "start": 111.88,
-   "end": 111.94
+   "start": 111.95,
+   "end": 112.01
   },
   {
    "w": "de",
-   "start": 111.98,
-   "end": 112.04
+   "start": 112.05,
+   "end": 112.11
   },
   {
    "w": "promesses",
-   "start": 112.06,
-   "end": 112.38
+   "start": 112.13,
+   "end": 112.45
   },
   {
    "w": "en",
-   "start": 112.42,
-   "end": 112.48
+   "start": 112.49,
+   "end": 112.55
   },
   {
    "w": "l'air,",
-   "start": 112.52,
-   "end": 112.74
+   "start": 112.59,
+   "end": 112.81
   },
   {
    "w": "pas",
-   "start": 112.94,
-   "end": 113.02
+   "start": 113.01,
+   "end": 113.09
   },
   {
    "w": "de",
-   "start": 113.06,
-   "end": 113.1
+   "start": 113.13,
+   "end": 113.17
   },
   {
    "w": "captures",
-   "start": 113.14,
-   "end": 113.42
+   "start": 113.21,
+   "end": 113.49
   },
   {
    "w": "d'ecran.",
-   "start": 113.44,
-   "end": 113.76
+   "start": 113.51,
+   "end": 113.83
   },
   {
    "w": "Un",
-   "start": 114.22,
-   "end": 114.3
+   "start": 114.29,
+   "end": 114.37
   },
   {
    "w": "historique",
-   "start": 114.32,
-   "end": 114.72
+   "start": 114.39,
+   "end": 114.79
   },
   {
    "w": "en",
-   "start": 114.76,
-   "end": 114.84
+   "start": 114.83,
+   "end": 114.91
   },
   {
    "w": "argent",
-   "start": 114.9,
-   "end": 115.2
+   "start": 114.97,
+   "end": 115.27
   },
   {
    "w": "reel",
-   "start": 115.26,
-   "end": 115.58
+   "start": 115.33,
+   "end": 115.65
   },
   {
    "w": "verifiable",
-   "start": 115.84,
-   "end": 116.42
+   "start": 115.91,
+   "end": 116.49
   },
   {
    "w": "par",
-   "start": 116.46,
-   "end": 116.56
+   "start": 116.53,
+   "end": 116.63
   },
   {
    "w": "n'importe",
-   "start": 116.66,
-   "end": 117.08
+   "start": 116.73,
+   "end": 117.15
   },
   {
    "w": "qui",
-   "start": 117.18,
-   "end": 117.3
+   "start": 117.25,
+   "end": 117.37
   },
   {
    "w": "sur",
-   "start": 117.6,
-   "end": 117.74
+   "start": 117.67,
+   "end": 117.81
   },
   {
    "w": "MyFxBook.",
-   "start": 117.8,
-   "end": 118.52
+   "start": 117.87,
+   "end": 118.59
   },
   {
    "w": "Pas",
-   "start": 119.04,
-   "end": 119.14
+   "start": 119.11,
+   "end": 119.21
   },
   {
    "w": "besoin",
-   "start": 119.16,
-   "end": 119.38
+   "start": 119.23,
+   "end": 119.45
   },
   {
    "w": "d'etre",
-   "start": 119.42,
-   "end": 119.66
+   "start": 119.49,
+   "end": 119.73
   },
   {
    "w": "trader",
-   "start": 119.7,
-   "end": 120.04
+   "start": 119.77,
+   "end": 120.11
   },
   {
    "w": "pour",
-   "start": 120.06,
-   "end": 120.16
+   "start": 120.13,
+   "end": 120.23
   },
   {
    "w": "le",
-   "start": 120.18,
-   "end": 120.26
+   "start": 120.25,
+   "end": 120.33
   },
   {
    "w": "lire,",
-   "start": 120.3,
-   "end": 120.52
+   "start": 120.37,
+   "end": 120.59
   },
   {
    "w": "juste",
-   "start": 120.92,
-   "end": 121.24
+   "start": 120.99,
+   "end": 121.31
   },
   {
    "w": "de",
-   "start": 121.28,
-   "end": 121.4
+   "start": 121.35,
+   "end": 121.47
   },
   {
    "w": "vouloir",
-   "start": 121.42,
-   "end": 121.68
+   "start": 121.49,
+   "end": 121.75
   },
   {
    "w": "comprendre.",
-   "start": 121.76,
-   "end": 122.22
+   "start": 121.83,
+   "end": 122.29
   },
   {
    "w": "C'est",
-   "start": 122.72,
-   "end": 122.78
+   "start": 122.79,
+   "end": 122.85
   },
   {
    "w": "d'ailleurs",
-   "start": 122.8,
-   "end": 123.06
+   "start": 122.87,
+   "end": 123.13
   },
   {
    "w": "pour",
-   "start": 123.1,
-   "end": 123.26
+   "start": 123.17,
+   "end": 123.33
   },
   {
    "w": "ca",
-   "start": 123.32,
-   "end": 123.38
+   "start": 123.39,
+   "end": 123.45
   },
   {
    "w": "que",
-   "start": 123.46,
-   "end": 123.54
+   "start": 123.53,
+   "end": 123.61
   },
   {
    "w": "l'acces",
-   "start": 123.58,
-   "end": 123.82
+   "start": 123.65,
+   "end": 123.89
   },
   {
    "w": "se",
-   "start": 123.86,
-   "end": 123.96
+   "start": 123.93,
+   "end": 124.03
   },
   {
    "w": "fait",
-   "start": 124.0,
-   "end": 124.1
+   "start": 124.07,
+   "end": 124.17
   },
   {
    "w": "sur",
-   "start": 124.16,
-   "end": 124.3
+   "start": 124.23,
+   "end": 124.37
   },
   {
    "w": "demande.",
-   "start": 124.34,
-   "end": 124.68
+   "start": 124.41,
+   "end": 124.75
   },
   {
    "w": "On",
-   "start": 125.06,
-   "end": 125.12
+   "start": 125.13,
+   "end": 125.19
   },
   {
    "w": "prefere",
-   "start": 125.16,
-   "end": 125.46
+   "start": 125.23,
+   "end": 125.53
   },
   {
    "w": "des",
-   "start": 125.48,
-   "end": 125.58
+   "start": 125.55,
+   "end": 125.65
   },
   {
    "w": "gens",
-   "start": 125.6,
-   "end": 125.76
+   "start": 125.67,
+   "end": 125.83
   },
   {
    "w": "qui",
-   "start": 125.78,
-   "end": 125.86
+   "start": 125.85,
+   "end": 125.93
   },
   {
    "w": "ont",
-   "start": 125.88,
-   "end": 126.0
+   "start": 125.95,
+   "end": 126.07
   },
   {
    "w": "compris",
-   "start": 126.06,
-   "end": 126.42
+   "start": 126.13,
+   "end": 126.49
   },
   {
    "w": "a",
-   "start": 126.78,
-   "end": 126.8
+   "start": 126.85,
+   "end": 126.87
   },
   {
    "w": "des",
-   "start": 126.84,
-   "end": 126.94
+   "start": 126.91,
+   "end": 127.01
   },
   {
    "w": "gens",
-   "start": 126.96,
-   "end": 127.1
+   "start": 127.03,
+   "end": 127.17
   },
   {
    "w": "presses.",
-   "start": 127.14,
-   "end": 127.5
+   "start": 127.21,
+   "end": 127.57
   },
   {
    "w": "Alors",
-   "start": 128.62,
-   "end": 128.78
+   "start": 128.69,
+   "end": 128.85
   },
   {
    "w": "imagine,",
-   "start": 128.82,
-   "end": 129.2
+   "start": 128.89,
+   "end": 129.27
   },
   {
    "w": "tu",
-   "start": 129.68,
-   "end": 129.74
+   "start": 129.75,
+   "end": 129.81
   },
   {
    "w": "sors",
-   "start": 129.86,
-   "end": 130.0
+   "start": 129.93,
+   "end": 130.07
   },
   {
    "w": "de",
-   "start": 130.04,
-   "end": 130.12
+   "start": 130.11,
+   "end": 130.19
   },
   {
    "w": "ta",
-   "start": 130.14,
-   "end": 130.22
+   "start": 130.21,
+   "end": 130.29
   },
   {
    "w": "reunion,",
-   "start": 130.28,
-   "end": 130.64
+   "start": 130.35,
+   "end": 130.71
   },
   {
    "w": "tu",
-   "start": 131.0,
-   "end": 131.08
+   "start": 131.07,
+   "end": 131.15
   },
   {
    "w": "ouvres",
-   "start": 131.12,
-   "end": 131.32
+   "start": 131.19,
+   "end": 131.39
   },
   {
    "w": "ton",
-   "start": 131.36,
-   "end": 131.44
+   "start": 131.43,
+   "end": 131.51
   },
   {
    "w": "telephone.",
-   "start": 131.5,
-   "end": 131.98
+   "start": 131.57,
+   "end": 132.05
   },
   {
    "w": "Pendant",
-   "start": 132.48,
-   "end": 132.68
+   "start": 132.55,
+   "end": 132.73
   },
   {
    "w": "que",
-   "start": 132.72,
-   "end": 132.8
+   "start": 132.77,
+   "end": 132.85
   },
   {
    "w": "tu",
-   "start": 132.84,
-   "end": 132.96
+   "start": 132.89,
+   "end": 132.97
   },
   {
    "w": "vivais",
-   "start": 132.98,
-   "end": 133.2
+   "start": 133.01,
+   "end": 133.21
   },
   {
    "w": "ta",
-   "start": 133.24,
-   "end": 133.34
+   "start": 133.25,
+   "end": 133.35
   },
   {
    "w": "journee,",
-   "start": 133.38,
-   "end": 133.68
-  },
-  {
-   "w": "ta",
-   "start": 133.98,
-   "end": 134.04
-  },
-  {
-   "w": "strategie",
-   "start": 134.119,
-   "end": 134.58
-  },
-  {
-   "w": "a",
-   "start": 134.619,
-   "end": 134.7
-  },
-  {
-   "w": "suivi",
-   "start": 134.76,
-   "end": 135.0
-  },
-  {
-   "w": "ses",
-   "start": 135.06,
-   "end": 135.179
-  },
-  {
-   "w": "regles.",
-   "start": 135.22,
-   "end": 135.5
-  },
-  {
-   "w": "Sans",
-   "start": 135.899,
-   "end": 136.02
-  },
-  {
-   "w": "stress,",
-   "start": 136.1,
-   "end": 136.459
-  },
-  {
-   "w": "sans",
-   "start": 136.76,
-   "end": 136.92
-  },
-  {
-   "w": "ecran,",
-   "start": 136.98,
-   "end": 137.26
-  },
-  {
-   "w": "sans",
-   "start": 137.64,
-   "end": 137.8
-  },
-  {
-   "w": "toi.",
-   "start": 137.84,
-   "end": 138.02
-  },
-  {
-   "w": "Tu",
-   "start": 138.6,
-   "end": 138.66
-  },
-  {
-   "w": "gardes",
-   "start": 138.74,
-   "end": 139.0
+   "start": 133.39,
+   "end": 133.69
   },
   {
    "w": "ton",
-   "start": 139.02,
-   "end": 139.12
+   "start": 133.99,
+   "end": 134.11
+  },
+  {
+   "w": "algorithme",
+   "start": 134.17,
+   "end": 134.57
+  },
+  {
+   "w": "a",
+   "start": 134.59,
+   "end": 134.67
+  },
+  {
+   "w": "suivi",
+   "start": 134.71,
+   "end": 134.93
+  },
+  {
+   "w": "ses",
+   "start": 134.989,
+   "end": 135.11
+  },
+  {
+   "w": "regles.",
+   "start": 135.149,
+   "end": 135.43
+  },
+  {
+   "w": "Sans",
+   "start": 135.849,
+   "end": 135.97
+  },
+  {
+   "w": "stress,",
+   "start": 136.05,
+   "end": 136.409
+  },
+  {
+   "w": "sans",
+   "start": 136.71,
+   "end": 136.87
+  },
+  {
+   "w": "ecran,",
+   "start": 136.93,
+   "end": 137.21
+  },
+  {
+   "w": "sans",
+   "start": 137.59,
+   "end": 137.75
+  },
+  {
+   "w": "toi.",
+   "start": 137.79,
+   "end": 137.97
+  },
+  {
+   "w": "Tu",
+   "start": 138.55,
+   "end": 138.61
+  },
+  {
+   "w": "gardes",
+   "start": 138.69,
+   "end": 138.95
+  },
+  {
+   "w": "ton",
+   "start": 138.97,
+   "end": 139.07
   },
   {
    "w": "travail,",
-   "start": 139.16,
-   "end": 139.58
+   "start": 139.11,
+   "end": 139.53
   },
   {
-   "w": "elle",
-   "start": 139.94,
-   "end": 140.04
+   "w": "Il",
+   "start": 139.89,
+   "end": 139.97
   },
   {
    "w": "garde",
-   "start": 140.16,
-   "end": 140.38
+   "start": 140.09,
+   "end": 140.37
   },
   {
    "w": "la",
-   "start": 140.42,
-   "end": 140.5
+   "start": 140.41,
+   "end": 140.49
   },
   {
    "w": "discipline.",
-   "start": 140.54,
-   "end": 141.08
+   "start": 140.51,
+   "end": 141.01
   },
   {
    "w": "Compound",
-   "start": 147.44,
-   "end": 147.82
+   "start": 147.38,
+   "end": 147.76
   },
   {
    "w": "Capital.",
-   "start": 147.88,
-   "end": 148.38
+   "start": 147.82,
+   "end": 148.32
   },
   {
    "w": "Comprendre",
-   "start": 148.86,
-   "end": 149.54
+   "start": 148.8,
+   "end": 149.48
   },
   {
    "w": "avant",
-   "start": 149.62,
-   "end": 149.82
+   "start": 149.56,
+   "end": 149.76
   },
   {
    "w": "de",
-   "start": 149.86,
-   "end": 149.92
+   "start": 149.8,
+   "end": 149.86
   },
   {
    "w": "decider.",
-   "start": 149.96,
-   "end": 150.38
+   "start": 149.9,
+   "end": 150.32
   }
  ]
 }

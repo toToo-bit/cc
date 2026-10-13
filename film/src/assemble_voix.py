@@ -65,10 +65,12 @@ def write_wav(path: Path, data: np.ndarray):
 
 
 def main(variant="ig"):
-    meta = json.loads((HERE / "words_scribe.json").read_text(encoding="utf-8"))
+    # version « algorithme » (6 phrases reenregistrees) si elle existe
+    algo = (ASSETS / "voix_main_algo.wav").exists() and (HERE / "words_scribe_algo.json").exists()
+    meta = json.loads((HERE / ("words_scribe_algo.json" if algo else "words_scribe.json")).read_text(encoding="utf-8"))
     words = [{"w": w, "start": s, "end": e} for w, s, e in meta["words"]]
 
-    main_a = decode(ASSETS / "voix_main.mp3")
+    main_a = decode(ASSETS / ("voix_main_algo.wav" if algo else "voix_main.mp3"))
     cta_file = "voix_cta_a.mp3" if variant == "ig" else "voix_cta_b.mp3"
     cta_a = decode(ASSETS / cta_file)
 
