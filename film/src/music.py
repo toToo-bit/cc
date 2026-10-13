@@ -96,7 +96,7 @@ def main(variant):
 
     # sous-basse tres douce sur la fondamentale, qui pulse lentement
     t = np.arange(len(p)) / SR
-    mix = 0.55 * p + 0.22 * sw
+    mix = 0.55 * p + 0.0 * sw   # souffles deplaces dans sfx.py
     mix *= np.clip(t / 1.5, 0, 1) * np.clip((dur - t) / 2.0, 0, 1)
     stereo = np.stack([mix, np.roll(mix, int(0.011 * SR))], axis=1)
     stereo /= np.abs(stereo).max() + 1e-9
