@@ -5,3 +5,5 @@ frames/
 assets/voix_*.wav
 assets/music_*.wav
 assets/sfx_*.wav
+assets/score_*.wav
+assets/*.sf3
