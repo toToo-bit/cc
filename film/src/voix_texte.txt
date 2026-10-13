@@ -27,16 +27,16 @@ Sinon, on attend.
 Et la limite de perte est posée avant même d'entrer.
 Longtemps, cette discipline était réservée aux pros.
 C'est exactement ce que Compound Capital a construit pour toi.
-Une stratégie automatique sur l'euro-dollar, le marché le plus échangé au monde.
+Un algorithme automatique sur l'euro-dollar, le marché le plus échangé au monde.
 Un seul marché, étudié par cœur.
-Elle lit les chiffres, pas les rumeurs.
-Elle applique ses règles sans émotion, du lundi au vendredi.
+Il lit les chiffres, pas les rumeurs.
+Il applique ses règles sans émotion, du lundi au vendredi.
 Et toi, tu n'as rien à faire : pas de graphique à surveiller, pas de signal à suivre, rien à cliquer.
 Concrètement ?
 Tu ouvres un compte à ton nom, chez notre courtier partenaire.
 Tu y déposes ton capital.
 Tu demandes l'accès.
-Et chaque position de la stratégie se copie automatiquement chez toi.
+Et chaque position de l'algorithme se copie automatiquement chez toi.
 Ton argent ne quitte jamais ton compte : personne d'autre que toi ne peut le retirer.
 Et tu peux tout arrêter, quand tu veux.
 Et nous, dans tout ça ?
@@ -52,12 +52,12 @@ C'est d'ailleurs pour ça que l'accès se fait sur demande : on préfère des ge
 Alors imagine.
 Tu sors de ta réunion.
 Tu ouvres ton téléphone.
-Pendant que tu vivais ta journée, ta stratégie a suivi ses règles.
+Pendant que tu vivais ta journée, ton algorithme a suivi ses règles.
 Sans stress.
 Sans écran.
 Sans toi.
 Tu gardes ton travail.
-Elle garde la discipline.
+Il garde la discipline.
 L'historique, la FAQ et les conditions t'attendent sur notre Telegram.
 Lien en bio.
 Rien ne presse.

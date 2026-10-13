@@ -779,7 +779,7 @@ scene(34, (t, g) => {
   const st = pr(g, S(38) - 0.1, 0.4) * (1 - pr(g, S(39), 0.3));
   if (st > 0) {
     card(60, 1040, 240, 240, { fill: INK, stroke: null, r: 28, a: st });
-    text("STRATÉGIE", 180, 1130, { size: 24, weight: 800, c: PAPER, track: 3, a: st });
+    text("ALGORITHME", 180, 1130, { size: 24, weight: 800, c: PAPER, track: 3, a: st });
     text("Compound", 180, 1185, { size: 36, font: SERIF, c: GOLD2, a: st });
     line([[310, 1160], [470, 1160]], eo(pr(g, T(38, "copie"), 0.5)) * st, { w: 5, c: GOLD, dash: [10, 10] });
   }
@@ -910,7 +910,7 @@ scene(51, (t, g) => {
       ctx.save(); ctx.translate(0, (1 - n) * -120); ctx.globalAlpha = n;
       card(-190, -250, 380, 230, { r: 26, lw: 3 });
       text("COMPOUND CAPITAL", -160, -205, { size: 18, weight: 800, c: GOLD, align: "left", track: 2 });
-      text("Ta stratégie a suivi", -160, -150, { size: 36, font: SERIF, align: "left" });
+      text("Ton algorithme a suivi", -160, -150, { size: 36, font: SERIF, align: "left" });
       text("ses règles.", -160, -105, { size: 36, font: SERIF, italic: true, align: "left" });
       text("Sans intervention de ta part.", -160, -55, { size: 20, weight: 500, c: GREY, align: "left" });
       ctx.restore();
