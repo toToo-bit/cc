@@ -975,7 +975,7 @@ scene(60, (t, g) => {
     } else {
       card(170, 1100, 740, 220, { r: 30, lw: 4 });
       const sw = pr(g, c0 + 3.85, 0.3);
-      text("Telegram", 540, 1210, { size: 72, font: SERIF, a: pr(g, T(60, "telegram") - 0.1, 0.35) * (1 - sw) });
+      text("Telegram", 540, 1210, { size: 72, font: SERIF, a: pr(g, c0 + 0.15, 0.35) * (1 - sw) });
       text("Lien en description", 540, 1210, { size: 64, font: SERIF, italic: true, a: sw });
     }
     // l'avion en papier, fait des questions pliees
