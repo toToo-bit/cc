@@ -972,7 +972,7 @@ scene(60, (t, g) => {
       const dm = back(pr(g, CTA_END + 0.1, 0.45));
       ctx.save(); ctx.translate(560, 1370); ctx.scale(dm, dm);
       card(-340, -80, 680, 160, { r: 40, fill: INK, stroke: null });
-      text("Voici le lien du Telegram ✈", 0, 0, { size: 38, weight: 600, c: PAPER });
+      text("Voici le lien ✈", 0, 0, { size: 38, weight: 600, c: PAPER });
       ctx.restore();
     } else {
       card(170, 1100, 740, 220, { r: 30, lw: 4 });
