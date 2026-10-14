@@ -466,14 +466,15 @@ def build(variant):
         cue(S(59) + i * 0.12, s_ding(1760 + i * 220, 0.7), 0.35)
 
     # 11 · appel a l'action et fin
-    cue(c0 + 0.2, s_whoosh(3.4, 300, 2500), 0.4)
+    c_end = cta.get("speech_end", cta["end"])
+    cue(c0 + 0.2, s_whoosh(max(2.4, c_end - c0), 300, 2500), 0.4)
     if variant == "ig":
         for k in range(7):
-            cue(c0 + 4.2 + k * 0.1, s_key(), 0.8)
-        cue(c0 + 4.95, s_click(), 0.8)
-        cue(c0 + 5.3, s_notif(), 0.8)
+            cue(T(60, "capital") + k * 0.1, s_key(), 0.8)
+        cue(T(60, "capital") + 0.75, s_click(), 0.8)
+        cue(c_end + 0.1, s_notif(), 0.8)
     else:
-        cue(c0 + 3.85, s_pop(700), 0.7)
+        cue(T(60, "lien") - 0.1, s_pop(700), 0.7)
     cue(S(61) - 0.2, s_impact(50, 2.6), 0.8)
     cue(S(61) - 0.2, s_shimmer(3.0, 1318), 0.6)
     cue(S(61) + 0.2, s_pop(640), 0.6)

@@ -58,17 +58,9 @@ function T(i, w) {
   return hit ? hit.s : S(i);
 }
 
-// l'appel a l'action n'a pas de mots Scribe : on les cale sur ses pauses
-{
-  const cta = BEATS.find((b) => b.text === "CTA");
-  const c0 = cta.start;
-  const parts = VARIANT === "ig"
-    ? [["L'historique", 0.0], ["et", 0.55], ["la", 0.75], ["FAQ", 0.95], ["t'attendent", 1.6], ["sur", 2.4], ["notre", 2.6], ["Telegram.", 2.9],
-       ["Commente", 3.92], ["«\u202fCapital\u202f»", 4.3], ["et", 5.32], ["je", 5.45], ["t'envoie", 5.55], ["le", 5.8], ["lien.", 5.9]]
-    : [["L'historique", 0.0], ["et", 0.55], ["la", 0.75], ["FAQ", 0.95], ["t'attendent", 1.6], ["sur", 2.4], ["notre", 2.6], ["Telegram.", 2.9],
-       ["Lien", 3.88], ["en", 4.1], ["description.", 4.25]];
-  cta.words = parts.map(([w, o]) => ({ w, s: c0 + o, e: c0 + o + 0.3 }));
-}
+// l'appel a l'action : ses mots sont repartis sur la parole par build_beats.py
+const CTA = BEATS.find((b) => b.text === "CTA");
+const CTA_END = CTA.speech_end || CTA.end;
 
 // --- titres : groupes de phrases et mots en valeur ---------------------------
 const GROUPS = [[0, 1], [2], [3, 4, 5], [6, 7], [8], [9, 10], [11], [12], [13, 14], [15], [16], [17], [18], [19], [20], [21],
@@ -88,7 +80,7 @@ const EMPH = {
   39: { jamais: "i" }, 40: { arreter: "i" }, 42: { gains: "ig" }, 43: { commission: "i" }, 44: { progresse: "ig" },
   45: { promesse: "i" }, 46: { reel: "i", verifiable: "i" }, 48: { comprendre: "i" }, 49: { compris: "i" }, 50: { presses: "ir" },
   51: { imagine: "i" }, 53: { telephone: "i" }, 54: { regles: "ig" }, 55: { stress: "i" }, 56: { ecran: "i" }, 57: { toi: "ig" },
-  58: { travail: "i" }, 59: { discipline: "ig" }, 60: { "capital": "ig", "«capital»": "ig", lien: "i", description: "i" }, 61: { compound: "g", capital: "g" },
+  58: { travail: "i" }, 59: { discipline: "ig" }, 60: { capital: "ig", "l'algorithme": "i", lien: "i", description: "i" }, 61: { compound: "g", capital: "g" },
   62: { decider: "i" },
 };
 
@@ -961,25 +953,25 @@ scene(60, (t, g) => {
     if (VARIANT === "ig") {
       // un champ de commentaire generique, qui s'ecrit tout seul
       card(110, 1080, 860, 130, { r: 65, lw: 4 });
-      const typed = "Capital".slice(0, Math.round(lerp(0, 7, pr(g, c0 + 4.2, 0.7))));
+      const typed = "Capital".slice(0, Math.round(lerp(0, 7, pr(g, T(60, "capital"), 0.7))));
       text(typed || "Ajouter un commentaire…", 170, 1145, { size: 44, font: typed ? SANS : SANS, weight: typed ? 700 : 400, c: typed ? INK : GREY, align: "left" });
       if (typed.length && typed.length < 7 && Math.floor(g * 4) % 2) ctx.fillRect(175 + ctx.measureText(typed).width, 1120, 3, 50);
       ctx.fillStyle = GOLD; ctx.beginPath(); ctx.arc(890, 1145, 46, 0, 7); ctx.fill();
       line([[870, 1145], [910, 1145]], 1, { w: 6, c: PAPER, nib: false }); line([[895, 1128], [912, 1145], [895, 1162]], 1, { w: 6, c: PAPER, nib: false });
       // la reponse : le lien en message
-      const dm = back(pr(g, c0 + 5.3, 0.45));
+      const dm = back(pr(g, CTA_END + 0.1, 0.45));
       ctx.save(); ctx.translate(560, 1370); ctx.scale(dm, dm);
       card(-340, -80, 680, 160, { r: 40, fill: INK, stroke: null });
       text("Voici le lien du Telegram ✈", 0, 0, { size: 38, weight: 600, c: PAPER });
       ctx.restore();
     } else {
       card(170, 1100, 740, 220, { r: 30, lw: 4 });
-      const sw = pr(g, c0 + 3.85, 0.3);
-      text("Telegram", 540, 1210, { size: 72, font: SERIF, a: pr(g, c0 + 0.15, 0.35) * (1 - sw) });
+      const sw = pr(g, T(60, "lien") - 0.1, 0.3);
+      text("L'algorithme", 540, 1210, { size: 72, font: SERIF, a: pr(g, c0 + 0.15, 0.35) * (1 - sw) });
       text("Lien en description", 540, 1210, { size: 64, font: SERIF, italic: true, a: sw });
     }
     // l'avion en papier, fait des questions pliees
-    const fl = pr(g, c0 + 0.2, 3.4);
+    const fl = pr(g, c0 + 0.2, Math.max(2.4, CTA_END - c0));
     const px = lerp(-100, 1180, eio(fl)), py = 960 - Math.sin(fl * Math.PI) * 120;
     ctx.save(); ctx.translate(px, py); ctx.rotate(-0.18);
     ctx.fillStyle = PAPER; ctx.strokeStyle = INK; ctx.lineWidth = 4;

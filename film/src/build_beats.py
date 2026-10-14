@@ -7,6 +7,10 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 NB = " "
+CTA_TEXT = {
+    "ig": "Si tu souhaites y accéder, commente « Capital ».",
+    "tt": "Si tu souhaites accéder à l'algorithme, le lien est en description.",
+}
 SKIP = {"Rien ne presse.", "L'historique, la FAQ et les conditions t'attendent sur notre Telegram.", "Lien en bio."}
 
 
@@ -34,7 +38,18 @@ def build(v):
                       "words": [{"w": t, "s": w["start"], "e": w["end"]} for t, w in zip(tk, ws)]})
     if i != len(words):
         sys.exit(f"{v} : {i} mots dans le script, {len(words)} dans la voix")
-    beats.insert(len(beats) - 2, {"text": "CTA", "start": H["cta"]["start"], "end": H["cta"]["end"], "words": []})
+    cta = H["cta"]
+    ctext = CTA_TEXT[v]
+    a, b = cta.get("speech", [cta["start"], cta["end"]])
+    tk = toks(ctext)
+    wts = [max(1, len(re.sub(r"[^\w]", "", t))) + 1.5 for t in tk]   # +1,5 : poids de l'articulation
+    tot, acc, cw = sum(wts), a, []
+    for t, w in zip(tk, wts):
+        d = (b - a) * w / tot
+        cw.append({"w": t, "s": round(acc, 3), "e": round(acc + d, 3)})
+        acc += d
+    beats.insert(len(beats) - 2, {"text": "CTA", "start": cta["start"], "end": cta["end"], "words": cw,
+                                  "speech_end": b})
     (HERE / f"beats_{v}.json").write_text(json.dumps({"duration": H["duration"], "beats": beats}, ensure_ascii=False),
                                           encoding="utf-8")
     print(f"beats_{v}.json : {len(beats)} phrases, {i} mots")

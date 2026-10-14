@@ -64,6 +64,13 @@ def write_wav(path: Path, data: np.ndarray):
         w.writeframes((clipped * 32767).astype("<i2").tobytes())
 
 
+def speech_bounds(x, thr=0.02):
+    """debut et fin de la parole (enveloppe lissee sur 10 ms, seuil a 6 % du maximum)."""
+    env = np.convolve(np.abs(x), np.ones(480) / 480, mode="same")
+    idx = np.where(env > 0.06 * env.max())[0]
+    return idx[0] / SR, idx[-1] / SR
+
+
 def main(variant="ig"):
     # version « algorithme » (6 phrases reenregistrees) si elle existe
     algo = (ASSETS / "voix_main_algo.wav").exists() and (HERE / "words_scribe_algo.json").exists()
@@ -72,6 +79,8 @@ def main(variant="ig"):
 
     main_a = decode(ASSETS / ("voix_main_algo.wav" if algo else "voix_main.mp3"))
     cta_file = "voix_cta_a.mp3" if variant == "ig" else "voix_cta_b.mp3"
+    if (ASSETS / f"voix_cta2_{variant}.mp3").exists():      # fin concise (14/10)
+        cta_file = f"voix_cta2_{variant}.mp3"
     cta_a = decode(ASSETS / cta_file)
 
     # --- reperer les mots cles -------------------------------------------
@@ -161,7 +170,9 @@ def main(variant="ig"):
         "variant": variant,
         "duration": round(len(track) / SR, 3),
         "cta": {"start": round(cta_start, 3), "end": round(cta_start + len(cta_a) / SR, 3),
-                "source": cta_file},
+                "source": cta_file,
+                # bornes de la parole dans la phrase (hors silences de tete et de queue)
+                "speech": [round(cta_start + x, 3) for x in speech_bounds(cta_a)]},
         "signature_start": round(sig_start, 3),
         "words": final_words,
     }
