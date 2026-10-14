@@ -370,6 +370,16 @@ const CHAPTERS = [
   [0, "Ton cerveau"], [S(15) - 0.3, "Ta journée"], [S(19) - 0.3, "La méthode"], [S(27) - 0.3, "Compound Capital"],
   [S(34) - 0.3, "Concrètement"], [S(45) - 0.3, "La preuve"], [S(51) - 0.3, "Imagine"],
 ];
+// Barre de progression. Le corps du film (jusqu'a la fin, image 4253) a ete
+// rendu quand la video durait BODY_DUR : on garde cette pente jusqu'au raccord,
+// puis on rejoint 100 % a la vraie fin. Aucun saut au raccord.
+const BODY_DUR = 151.82;   // corps commun (la version TT reprend les images de la version IG)
+const BODY_END = 4253 / 30;
+function progress(t) {
+  if (t < BODY_END) return cl(t / BODY_DUR);
+  return cl(lerp(BODY_END / BODY_DUR, 1, (t - BODY_END) / (DUR - BODY_END)));
+}
+
 function header(t, dark) {
   let ci = 0;
   CHAPTERS.forEach((c, i) => { if (t >= c[0]) ci = i; });
@@ -377,7 +387,7 @@ function header(t, dark) {
   text("COMPOUND CAPITAL", 92, 118, { size: 24, weight: 700, c: fg, align: "left", track: 3 });
   text(`${String(ci + 1).padStart(2, "0")} · ${CHAPTERS[ci][1].toUpperCase()}`, W - 92, 118, { size: 24, weight: 600, c: sub, align: "right", track: 2 });
   ctx.fillStyle = dark ? "#34353a" : RULE; ctx.fillRect(92, 150, W - 184, 2);
-  ctx.fillStyle = dark ? GOLD2 : GOLD; ctx.fillRect(92, 149, (W - 184) * cl(t / DUR), 4);
+  ctx.fillStyle = dark ? GOLD2 : GOLD; ctx.fillRect(92, 149, (W - 184) * progress(t), 4);
 }
 
 // ============================================================================
@@ -990,7 +1000,7 @@ scene(60, (t, g) => {
     text("Capital", 540, 980, { size: 170, font: SERIF, italic: true, c: GOLD });
     line([[260, 1090], [820, 1090]], eo(pr(g, S(61) + 0.3, 0.6)), { w: 3, c: INK });
     text("Comprendre avant de décider.", 540, 1170, { size: 58, font: SERIF, italic: true, a: pr(g, T(62, "comprendre") - 0.1, 0.4) });
-    pill(VARIANT === "ig" ? "COMMENTE « CAPITAL »" : "REJOINS LE TELEGRAM", 540, 1340, { fill: INK, size: 30, k: back(pr(g, S(61) + 0.2, 0.5)) });
+    pill(VARIANT === "ig" ? "COMMENTE « CAPITAL »" : "ACCÈDE À L'ALGORITHME", 540, 1340, { fill: INK, size: 30, k: back(pr(g, S(61) + 0.2, 0.5)) });
     if (VARIANT === "tt") text("LIEN EN DESCRIPTION", 540, 1430, { size: 24, weight: 700, c: GREY, track: 3 });
     text("Le trading comporte un risque de perte en capital.", 540, 1600, { size: 24, weight: 500, c: GREY });
     text("Les performances passées ne garantissent pas les résultats futurs.", 540, 1640, { size: 24, weight: 500, c: GREY });

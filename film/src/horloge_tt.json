@@ -1,12 +1,16 @@
 {
  "variant": "tt",
- "duration": 150.54,
+ "duration": 148.7,
  "cta": {
   "start": 142.0,
-  "end": 146.88,
-  "source": "voix_cta_b.mp3"
+  "end": 145.04,
+  "source": "voix_cta2_tt.mp3",
+  "speech": [
+   142.123,
+   144.785
+  ]
  },
- "signature_start": 147.16,
+ "signature_start": 145.32,
  "words": [
   {
    "w": "Ton",
@@ -2075,33 +2079,33 @@
   },
   {
    "w": "Compound",
-   "start": 147.38,
-   "end": 147.76
+   "start": 145.54,
+   "end": 145.92
   },
   {
    "w": "Capital.",
-   "start": 147.82,
-   "end": 148.32
+   "start": 145.98,
+   "end": 146.48
   },
   {
    "w": "Comprendre",
-   "start": 148.8,
-   "end": 149.48
+   "start": 146.96,
+   "end": 147.64
   },
   {
    "w": "avant",
-   "start": 149.56,
-   "end": 149.76
+   "start": 147.72,
+   "end": 147.92
   },
   {
    "w": "de",
-   "start": 149.8,
-   "end": 149.86
+   "start": 147.96,
+   "end": 148.02
   },
   {
    "w": "decider.",
-   "start": 149.9,
-   "end": 150.32
+   "start": 148.06,
+   "end": 148.48
   }
  ]
 }

@@ -15,12 +15,14 @@ SKIP = {"Rien ne presse.", "L'historique, la FAQ et les conditions t'attendent s
 
 
 def toks(p):
-    out = []
+    out, pre = [], ""
     for t in p.split():
-        if re.search(r"\w", t):
-            out.append(t)
+        if t == "«":                 # guillemet ouvrant : colle au mot SUIVANT
+            pre = t + NB
+        elif re.search(r"\w", t):
+            out.append(pre + t); pre = ""
         elif out:
-            out[-1] += NB + t        # « : », « ? » colles au mot precedent
+            out[-1] += NB + t        # « : », « ? », « » » colles au mot precedent
     return out
 
 
