@@ -69,11 +69,18 @@ def main(args):
                           and abs(M["box"][1] - L["box"][1]) < 60), None)
                 if m:
                     m["t"][1] = max(m["t"][1], L["t"][1])
-                    m["box"] = [min(m["box"][0], L["box"][0]), min(m["box"][1], L["box"][1]),
-                                max(m["box"][2], L["box"][2]), max(m["box"][3], L["box"][3])]
+                    # horizontalement l'union, verticalement l'intersection : un releve
+                    # OCR peut deborder sur la ligne voisine (surtitre au-dessus)
+                    m["box"] = [min(m["box"][0], L["box"][0]), max(m["box"][1], L["box"][1]),
+                                max(m["box"][2], L["box"][2]), min(m["box"][3], L["box"][3])]
                 else:
                     merged.append(L)
             lines = merged
+            # la grande ligne serif fait ~92 px de haut : au-dela, le releve deborde
+            # sur le surtitre au-dessus (« LA SUITE SE PASSE ICI »), qu'il faut garder
+            for L in lines:
+                if L["old"].startswith("Rejoins") and L["box"][3] - L["box"][1] > 100:
+                    L["box"][1] = L["box"][3] - 92
             if name in LABEL_VIDEOS:
                 d = v["duration"]
                 lines.append({"t": [d - LABEL["t_from_end"], d], "box": LABEL["box"], "old": LABEL["old"],
