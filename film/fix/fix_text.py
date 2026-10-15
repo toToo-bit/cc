@@ -76,13 +76,13 @@ def find_line(img, pattern, line_pattern=r"gram|egr"):
     return out or None
 
 
-def line_above(img, box, max_up=220):
+def line_above(img, box, max_up=80, thr=18):
     """boite de la ligne d'encre situee juste au-dessus de box."""
     x0, y0, x1, y1 = box
     g = img[:, :, :].mean(axis=2).astype(np.float32)
     band = g[max(0, y0 - max_up):y0 - 2, 60:1020]
     bg = gaussian_filter(maximum_filter(band, size=25), 6)
-    rows = ((bg - band) > 45).sum(axis=1) > 0
+    rows = ((bg - band) > thr).sum(axis=1) > 2
     idx = np.where(rows)[0]
     if not len(idx):
         return None
@@ -94,13 +94,15 @@ def line_above(img, box, max_up=220):
     return (60, a + top, 1020, a + bottom + 1)
 
 
-def ink_box(img, box, pad=14):
+def ink_box(img, box, pad=14, thr=45):
     """boite exacte de l'encre autour de la boite OCR."""
     x0, y0, x1, y1 = box
-    x0, y0, x1, y1 = max(0, x0 - pad), max(0, y0 - pad), min(W, x1 + pad), min(H, y1 + pad)
+    # vers le bas, on va plus loin : les jambages (j, p, g) depassent la boite OCR
+    down = max(pad, 32) if pad > 4 else pad
+    x0, y0, x1, y1 = max(0, x0 - pad), max(0, y0 - pad), min(W, x1 + pad), min(H, y1 + down)
     g = img[y0:y1, x0:x1].mean(axis=2)
     bg = gaussian_filter(maximum_filter(g, size=25), 6)
-    ink = (bg - g) > 45
+    ink = (bg - g) > thr
     ys, xs = np.where(ink)
     return (x0 + xs.min(), y0 + ys.min(), x0 + xs.max() + 1, y0 + ys.max() + 1)
 
@@ -144,16 +146,22 @@ def plan_paper(frame, box, margin=6):
     from scipy.ndimage import percentile_filter
     x0, y0, x1, y1 = box
     h = y1 - y0
+    # bande de papier vraiment vide : plus faible ecart entre ses pixels clairs et
+    # sombres (un texte meme tres clair l'augmente), au-dessus, en dessous ou a cote
     best = None
-    for dy in list(range(-h - margin, -3 * h - margin, -4)) + list(range(h + margin, 3 * h + margin, 4)):
-        a, b = y0 + dy, y1 + dy
-        if a < 0 or b > H:
+    for dx in (0, -220, 220, -440, 440):
+        if x0 + dx < 0 or x1 + dx > W:
             continue
-        score = frame[a:b, x0:x1].mean(axis=2).std()
-        if best is None or score < best[0]:
-            best = (score, dy)
-    dy = best[1]
-    clean = frame[y0 + dy:y1 + dy, x0:x1].astype(np.float32)
+        for dy in list(range(-h - margin, -6 * h - margin, -3)) + list(range(h + margin, 6 * h + margin, 3)):
+            a, b = y0 + dy, y1 + dy
+            if a < 0 or b > H:
+                continue
+            g = frame[a:b, x0 + dx:x1 + dx].mean(axis=2)
+            score = float(np.ptp(gaussian_filter(g, 1)))   # le moindre trait se voit
+            if best is None or score < best[0]:
+                best = (score, (dy, dx))
+    dy, dx = best[1]
+    clean = frame[y0 + dy:y1 + dy, x0 + dx:x1 + dx].astype(np.float32)
     region = frame[y0:y1, x0:x1].astype(np.float32)
     light = np.empty_like(region)
     for c in range(3):
@@ -161,13 +169,13 @@ def plan_paper(frame, box, margin=6):
         lc = gaussian_filter(percentile_filter(region[..., c], 75, size=k), 8)
         ref = gaussian_filter(percentile_filter(clean[..., c], 75, size=k), 8)
         light[..., c] = lc + float(clean[..., c].mean() - ref.mean())
-    return dict(dy=dy, light=light)
+    return dict(dy=dy, dx=dx, light=light)
 
 
 def paper_patch(frame, box, pp):
     """papier de la boite pour cette image : eclairage fixe + grain courant voisin."""
     x0, y0, x1, y1 = box
-    clean = frame[y0 + pp["dy"]:y1 + pp["dy"], x0:x1].astype(np.float32)
+    clean = frame[y0 + pp["dy"]:y1 + pp["dy"], x0 + pp["dx"]:x1 + pp["dx"]].astype(np.float32)
     grain = clean - gaussian_filter(clean, (6, 6, 0))
     return np.clip(pp["light"] + grain, 0, 255)
 
@@ -184,9 +192,15 @@ def plan_job(path, items):
     plans = []
     for it in items:
         ref = grab(path, it["ref_t"])
-        if it.get("above"):
+        pad, thr = 14, 45
+        if it.get("boxes"):
+            boxes, pad = [tuple(b) for b in it["boxes"]], 2          # emplacements donnes
+            if it.get("mode") == "truncate":
+                thr = 18                                             # mention gris clair
+        elif it.get("above"):
             anchor = find_line(ref, it["above"], line_pattern=None)
             boxes = [line_above(ref, ink_box(ref, anchor[0]))] if anchor else None
+            pad, thr = 4, 18                                         # mention gris clair
         else:
             boxes = find_line(ref, it["pattern"], it.get("line", r"gram|egr"))
         if not boxes:
@@ -194,8 +208,10 @@ def plan_job(path, items):
         for k, box in enumerate(boxes):
             if "index" in it and k != it["index"]:
                 continue
-            ib = ink_box(ref, box)
+            ib = ink_box(ref, box, pad=pad, thr=thr)
             if it.get("mode") == "truncate":
+                if ib[3] - ib[1] > 30:
+                    sys.exit(f"{path} : la mention trouvee est trop haute ({ib}), ce n'est pas elle")
                 # chasse fixe : la largeur est proportionnelle au nombre de signes
                 x0, y0, x1, y1 = ib
                 cut = x0 + (x1 - x0) * (len(it["new"]) + 0.5) / len(it["original"])
@@ -219,8 +235,10 @@ def plan_job(path, items):
             # meme origine (donc meme ligne de base et meme marge gauche) que l'original
             gx, gy = x0 - ox, y0 - oy
             pos = (int(round(gx + nx)), int(round(gy + ny)))
+            # marge basse proportionnelle : la pointe fine des jambages echappe au seuil
+            low = 10 + int(0.16 * (y1 - y0)) if it["font"].startswith("serif") else 10
             erase = (max(0, x0 - 8), max(0, min(y0, pos[1]) - 8),
-                     min(W, max(x1, pos[0] + new.shape[1]) + 10), min(H, max(y1, pos[1] + new.shape[0]) + 10))
+                     min(W, max(x1, pos[0] + new.shape[1]) + 10), min(H, max(y1, pos[1] + new.shape[0]) + low))
             plans.append(dict(item=it, ib=ib, erase=erase, paper=plan_paper(ref, erase), size=size, weight=weight, color=color,
                               ref_ink=ref_ink, mask=new, pos=pos, t0=it["t0"], t1=it["t1"]))
             print(f"   « {it['new']} » : boite {ib}, police {it['font']} {size:.1f}px "
@@ -243,24 +261,30 @@ def process(src, dst, plans, fps=30):
             break
         t = n / fps
         frame = None
+        orig = np.frombuffer(buf, np.uint8).reshape(H, W, 3)   # image d'origine, jamais modifiee
+        active = []
         for p in plans:
-            if not (p["t0"] <= t <= p["t1"]):
-                continue
-            if frame is None:
-                frame = np.frombuffer(buf, np.uint8).reshape(H, W, 3).copy()
-            a = opacity(frame, p["ib"], p["ref_ink"])
-            if a < 0.02:
-                continue
-            ex0, ey0, ex1, ey1 = p["erase"]
-            frame[ey0:ey1, ex0:ex1] = paper_patch(frame, p["erase"], p["paper"]).astype(np.uint8)
-            if p["mask"] is None:
-                continue
-            m = p["mask"] * a
-            x, y = p["pos"]
-            h, w = m.shape
-            reg = frame[y:y + h, x:x + w].astype(np.float32)
-            reg = reg * (1 - m[..., None]) + p["color"][None, None, :] * m[..., None]
-            frame[y:y + h, x:x + w] = np.clip(reg, 0, 255).astype(np.uint8)
+            if p["t0"] <= t <= p["t1"]:
+                # opacite mesuree sur l'ORIGINAL
+                a = opacity(orig, p["ib"], p["ref_ink"])
+                if a >= 0.02:
+                    active.append((p, a))
+        if active:
+            frame = orig.copy()
+            # passe 1 : tous les effacements (papier pris sur l'original)
+            for p, a in active:
+                ex0, ey0, ex1, ey1 = p["erase"]
+                frame[ey0:ey1, ex0:ex1] = paper_patch(orig, p["erase"], p["paper"]).astype(np.uint8)
+            # passe 2 : toutes les ecritures (aucun effacement ne peut rogner un texte neuf)
+            for p, a in active:
+                if p["mask"] is None:
+                    continue
+                m = p["mask"] * a
+                x, y = p["pos"]
+                h, w = m.shape
+                reg = frame[y:y + h, x:x + w].astype(np.float32)
+                reg = reg * (1 - m[..., None]) + p["color"][None, None, :] * m[..., None]
+                frame[y:y + h, x:x + w] = np.clip(reg, 0, 255).astype(np.uint8)
         enc.stdin.write(frame.tobytes() if frame is not None else buf)
         n += 1
     enc.stdin.close()
