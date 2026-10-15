@@ -1,0 +1,347 @@
+[
+ {
+  "src": "/home/claude/cc-media/videos/v2/07_Jeu15_12h30_Note03_Backtest.mp4",
+  "dst": "/home/claude/cc/film/fix/out/v2/07_Jeu15_12h30_Note03_Backtest.mp4",
+  "items": [
+   {
+    "pattern": "histor",
+    "font": "serif_it",
+    "original": "L’historique Compound Capital est sur le Telegram.",
+    "new": "L’historique Compound Capital est vérifiable sur MyFxBook.",
+    "t0": 38.3,
+    "t1": 42.7,
+    "ref_t": 41.0
+   },
+   {
+    "pattern": "Rejo",
+    "font": "serif",
+    "original": "Rejoins le Telegram.",
+    "new": "Lien en description.",
+    "t0": 43.3,
+    "t1": 49.002,
+    "ref_t": 46.0
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/ig/07_Jeu15_12h30_Note03_Backtest_IG.mp4",
+  "dst": "/home/claude/cc/film/fix/out/ig/07_Jeu15_12h30_Note03_Backtest_IG.mp4",
+  "items": [
+   {
+    "pattern": "histor",
+    "font": "serif_it",
+    "original": "L’historique Compound Capital est sur le Telegram.",
+    "new": "L’historique Compound Capital est vérifiable sur MyFxBook.",
+    "t0": 38.3,
+    "t1": 42.7,
+    "ref_t": 41.0
+   },
+   {
+    "pattern": "RECEV",
+    "font": "mono",
+    "mode": "truncate",
+    "original": "POUR RECEVOIR LE LIEN DU TELEGRAM",
+    "new": "POUR RECEVOIR LE LIEN",
+    "t0": 43.3,
+    "t1": 49.002,
+    "ref_t": 46.0,
+    "above": "Commente"
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/v2/08_Jeu15_19h30_CC06_Le-bug.mp4",
+  "dst": "/home/claude/cc/film/fix/out/v2/08_Jeu15_19h30_CC06_Le-bug.mp4",
+  "items": [
+   {
+    "pattern": "Rejo",
+    "font": "serif",
+    "original": "Rejoins le Telegram.",
+    "new": "Lien en description.",
+    "t0": 18.8,
+    "t1": 24.333333,
+    "ref_t": 22.5
+   },
+   {
+    "pattern": "contourn",
+    "font": "sans",
+    "original": "Les règles qui le contournent : sur le Telegram.",
+    "new": "Les règles qui le contournent : lien en description.",
+    "t0": 19.8,
+    "t1": 24.333333,
+    "ref_t": 22.5
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/ig/08_Jeu15_19h30_CC06_Le-bug_IG.mp4",
+  "dst": "/home/claude/cc/film/fix/out/ig/08_Jeu15_19h30_CC06_Le-bug_IG.mp4",
+  "items": [
+   {
+    "pattern": "envoie",
+    "font": "sans",
+    "original": "Je t’envoie le lien du Telegram en message.",
+    "new": "Je t’envoie le lien en message.",
+    "t0": 19.8,
+    "t1": 24.333333,
+    "ref_t": 22.5
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/v2/09_Ven16_12h30_CC09_500euros.mp4",
+  "dst": "/home/claude/cc/film/fix/out/v2/09_Ven16_12h30_CC09_500euros.mp4",
+  "items": [
+   {
+    "pattern": "Rejo",
+    "font": "serif",
+    "original": "Rejoins le Telegram.",
+    "new": "Lien en description.",
+    "t0": 17.8,
+    "t1": 23.033333,
+    "ref_t": 21.5
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/ig/09_Ven16_12h30_CC09_500euros_IG.mp4",
+  "dst": "/home/claude/cc/film/fix/out/ig/09_Ven16_12h30_CC09_500euros_IG.mp4",
+  "items": [
+   {
+    "pattern": "envoie",
+    "font": "sans",
+    "original": "Je t’envoie le lien du Telegram en message.",
+    "new": "Je t’envoie le lien en message.",
+    "t0": 18.3,
+    "t1": 23.033333,
+    "ref_t": 21.5
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/v2/10_Ven16_19h30_Note02_Verifier.mp4",
+  "dst": "/home/claude/cc/film/fix/out/v2/10_Ven16_19h30_Note02_Verifier.mp4",
+  "items": [
+   {
+    "pattern": "gram",
+    "font": "sans",
+    "original": "sur le Telegram",
+    "new": "vérifiable sur MyFxBook",
+    "t0": 38.8,
+    "t1": 46.2,
+    "ref_t": 44.0
+   },
+   {
+    "pattern": "Rejo",
+    "font": "serif",
+    "original": "Rejoins le Telegram.",
+    "new": "Lien en description.",
+    "t0": 47.3,
+    "t1": 52.501,
+    "ref_t": 50.0
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/ig/10_Ven16_19h30_Note02_Verifier_IG.mp4",
+  "dst": "/home/claude/cc/film/fix/out/ig/10_Ven16_19h30_Note02_Verifier_IG.mp4",
+  "items": [
+   {
+    "pattern": "gram",
+    "font": "sans",
+    "original": "sur le Telegram",
+    "new": "vérifiable sur MyFxBook",
+    "t0": 38.8,
+    "t1": 46.2,
+    "ref_t": 44.0
+   },
+   {
+    "pattern": "RECEV",
+    "font": "mono",
+    "mode": "truncate",
+    "original": "POUR RECEVOIR LE LIEN DU TELEGRAM",
+    "new": "POUR RECEVOIR LE LIEN",
+    "t0": 47.3,
+    "t1": 52.501,
+    "ref_t": 50.0,
+    "above": "Commente"
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/v2/11_Sam17_12h30_CC03_Ne-regarde-pas.mp4",
+  "dst": "/home/claude/cc/film/fix/out/v2/11_Sam17_12h30_CC03_Ne-regarde-pas.mp4",
+  "items": [
+   {
+    "pattern": "Rejo",
+    "font": "serif",
+    "original": "Rejoins le Telegram.",
+    "new": "Lien en description.",
+    "t0": 19.3,
+    "t1": 24.666667,
+    "ref_t": 23.0
+   },
+   {
+    "pattern": "mesure",
+    "font": "sans",
+    "original": "Ce qu’il mesure exactement : sur le Telegram.",
+    "new": "Ce qu’il mesure exactement : lien en description.",
+    "t0": 20.3,
+    "t1": 24.666667,
+    "ref_t": 23.0
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/ig/11_Sam17_12h30_CC03_Ne-regarde-pas_IG.mp4",
+  "dst": "/home/claude/cc/film/fix/out/ig/11_Sam17_12h30_CC03_Ne-regarde-pas_IG.mp4",
+  "items": [
+   {
+    "pattern": "envoie",
+    "font": "sans",
+    "original": "Je t’envoie le lien du Telegram en message.",
+    "new": "Je t’envoie le lien en message.",
+    "t0": 20.3,
+    "t1": 24.666667,
+    "ref_t": 23.0
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/v2/12_Sam17_19h30_CC08_15pourcent.mp4",
+  "dst": "/home/claude/cc/film/fix/out/v2/12_Sam17_19h30_CC08_15pourcent.mp4",
+  "items": [
+   {
+    "pattern": "tail",
+    "font": "sans",
+    "original": "on les détaille sur le Telegram.",
+    "new": "on te les détaille, sans rien cacher.",
+    "t0": 16.3,
+    "t1": 19.7,
+    "ref_t": 18.0
+   },
+   {
+    "pattern": "Rejo",
+    "font": "serif",
+    "original": "Rejoins le Telegram.",
+    "new": "Lien en description.",
+    "t0": 19.8,
+    "t1": 25.166667,
+    "ref_t": 23.5
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/ig/12_Sam17_19h30_CC08_15pourcent_IG.mp4",
+  "dst": "/home/claude/cc/film/fix/out/ig/12_Sam17_19h30_CC08_15pourcent_IG.mp4",
+  "items": [
+   {
+    "pattern": "tail",
+    "font": "sans",
+    "original": "on les détaille sur le Telegram.",
+    "new": "on te les détaille, sans rien cacher.",
+    "t0": 16.3,
+    "t1": 19.7,
+    "ref_t": 18.0
+   },
+   {
+    "pattern": "envoie",
+    "font": "sans",
+    "original": "Je t’envoie le lien du Telegram en message.",
+    "new": "Je t’envoie le lien en message.",
+    "t0": 20.3,
+    "t1": 25.166667,
+    "ref_t": 23.5
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/v2/13_Dim18_12h30_Note04_Demonte.mp4",
+  "dst": "/home/claude/cc/film/fix/out/v2/13_Dim18_12h30_Note04_Demonte.mp4",
+  "items": [
+   {
+    "pattern": "gram",
+    "font": "sans",
+    "original": "une par une, sur le Telegram.",
+    "new": "une par une, sur demande.",
+    "t0": 37.8,
+    "t1": 43.2,
+    "ref_t": 41.0
+   },
+   {
+    "pattern": "Rejo",
+    "font": "serif",
+    "original": "Rejoins le Telegram.",
+    "new": "Lien en description.",
+    "t0": 43.8,
+    "t1": 49.514,
+    "ref_t": 46.5
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/ig/13_Dim18_12h30_Note04_Demonte_IG.mp4",
+  "dst": "/home/claude/cc/film/fix/out/ig/13_Dim18_12h30_Note04_Demonte_IG.mp4",
+  "items": [
+   {
+    "pattern": "gram",
+    "font": "sans",
+    "original": "une par une, sur le Telegram.",
+    "new": "une par une, sur demande.",
+    "t0": 37.8,
+    "t1": 43.2,
+    "ref_t": 41.0
+   },
+   {
+    "pattern": "RECEV",
+    "font": "mono",
+    "mode": "truncate",
+    "original": "POUR RECEVOIR LE LIEN DU TELEGRAM",
+    "new": "POUR RECEVOIR LE LIEN",
+    "t0": 43.8,
+    "t1": 49.514,
+    "ref_t": 46.5,
+    "above": "Commente"
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/v2/14_Dim18_19h30_CC04_Drawdown.mp4",
+  "dst": "/home/claude/cc/film/fix/out/v2/14_Dim18_19h30_CC04_Drawdown.mp4",
+  "items": [
+   {
+    "pattern": "Rejo",
+    "font": "serif",
+    "original": "Rejoins le Telegram.",
+    "new": "Lien en description.",
+    "t0": 22.3,
+    "t1": 27.333333,
+    "ref_t": 25.5
+   },
+   {
+    "pattern": "publi",
+    "font": "sans",
+    "original": "Le nôtre est publié sur le Telegram.",
+    "new": "Le nôtre est publié : lien en description.",
+    "t0": 22.3,
+    "t1": 27.333333,
+    "ref_t": 25.5
+   }
+  ]
+ },
+ {
+  "src": "/home/claude/cc-media/videos/ig/14_Dim18_19h30_CC04_Drawdown_IG.mp4",
+  "dst": "/home/claude/cc/film/fix/out/ig/14_Dim18_19h30_CC04_Drawdown_IG.mp4",
+  "items": [
+   {
+    "pattern": "envoie",
+    "font": "sans",
+    "original": "Je t’envoie le lien du Telegram en message.",
+    "new": "Je t’envoie le lien en message.",
+    "t0": 22.3,
+    "t1": 27.333333,
+    "ref_t": 25.5
+   }
+  ]
+ }
+]

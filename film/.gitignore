@@ -8,3 +8,4 @@ assets/sfx_*.wav
 assets/score_*.wav
 assets/*.sf3
 assets/voix_main_algo.wav
+fix/out/
